@@ -1,0 +1,25 @@
+# ===================================================
+# 1. Remove output
+# ===================================================
+/Solution/output_2k/        
+/Solution/result/            
+/.vscode/                    
+__pycache__/                 
+*.pyc
+*.log
+
+# ===================================================
+# 2. Remove unneccessary .py files
+# ===================================================
+/Solution/*.py
+
+
+
+# ===================================================
+# 3. UN-IGNORE the final .y file
+# ===================================================
+# Bỏ loại trừ hai file code và script mà bạn muốn push
+!/Solution/Crawling_tiki_full_safe_200k.py
+!/Solution/result/stats_result.txt
+
+
