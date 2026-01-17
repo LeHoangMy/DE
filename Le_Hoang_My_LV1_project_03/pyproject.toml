@@ -1,0 +1,21 @@
+[project]
+name = "le-hoang-my-lv1-project-03"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "LeHoangMy",email = "lhmy11297@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "psycopg2 (>=2.9.11,<3.0.0)",
+    "faker (>=40.1.0,<41.0.0)",
+    "faker-commerce (>=1.0.4,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "le_hoang_my_lv1_project_03", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

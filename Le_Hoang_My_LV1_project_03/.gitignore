@@ -1,0 +1,12 @@
+# 1. Môi trường ảo (Chứa thư viện cài đặt, rất nặng và không cần push)
+.venv/
+
+# 2. Các file Python biên dịch (Các file .pyc bạn thấy trong __pycache__)
+__pycache__/
+*.pyc
+
+# 3. Cấu hình riêng của IDE (VS Code)
+.vscode/
+
+# 4. Các file cấu hình nhạy cảm (Nếu sau này bạn tách mật khẩu ra file riêng)
+*.ini
