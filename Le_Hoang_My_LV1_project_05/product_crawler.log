@@ -1,0 +1,902 @@
+2026-03-08 22:13:12,360 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-08 22:13:12,361 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-08 22:13:12,362 [INFO] [1/20] product_id=110474
+2026-03-08 22:13:13,095 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:13,811 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:15,312 [INFO] [2/20] product_id=99316
+2026-03-08 22:13:15,780 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:16,214 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:17,716 [INFO] [3/20] product_id=108591
+2026-03-08 22:13:18,317 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:18,724 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:20,226 [INFO] [4/20] product_id=110645
+2026-03-08 22:13:20,579 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:20,978 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:22,479 [INFO] [5/20] product_id=90273
+2026-03-08 22:13:22,817 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:23,437 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:24,939 [INFO] [6/20] product_id=90166
+2026-03-08 22:13:25,259 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:25,895 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:27,398 [INFO] [7/20] product_id=97845
+2026-03-08 22:13:27,840 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:28,166 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:29,668 [INFO] [8/20] product_id=90736
+2026-03-08 22:13:30,089 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:30,536 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:32,036 [INFO] [9/20] product_id=98083
+2026-03-08 22:13:32,426 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:32,858 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:34,359 [INFO] [10/20] product_id=84781
+2026-03-08 22:13:34,779 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:35,276 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:36,777 [INFO] [11/20] product_id=107889
+2026-03-08 22:13:37,272 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:37,776 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:39,277 [INFO] [12/20] product_id=103302
+2026-03-08 22:13:39,624 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:40,004 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:41,505 [INFO] [13/20] product_id=84831
+2026-03-08 22:13:41,873 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:42,381 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:43,882 [INFO] [14/20] product_id=90744
+2026-03-08 22:13:44,220 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:44,842 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:46,344 [INFO] [15/20] product_id=102558
+2026-03-08 22:13:46,786 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:47,187 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:48,689 [INFO] [16/20] product_id=104166
+2026-03-08 22:13:49,005 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:49,386 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:50,887 [INFO] [17/20] product_id=103126
+2026-03-08 22:13:51,291 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:51,703 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:53,204 [INFO] [18/20] product_id=95519
+2026-03-08 22:13:53,544 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:53,870 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:55,371 [INFO] [19/20] product_id=92367
+2026-03-08 22:13:55,689 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:56,126 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:13:57,627 [INFO] [20/20] product_id=110584
+2026-03-08 22:13:58,088 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:13:58,710 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:14:00,211 [INFO] 
+==================================================
+2026-03-08 22:14:00,212 [INFO] ✅ Success : 0
+2026-03-08 22:14:00,212 [INFO] ❌ Failed  : 20
+2026-03-08 22:14:00,212 [INFO] 📁 Output  : data/product_data.csv
+2026-03-08 22:14:00,212 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-08 22:22:42,095 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-08 22:22:42,095 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-08 22:22:42,096 [INFO] 🌐 Khởi tạo session...
+2026-03-08 22:22:43,883 [INFO] [1/20] product_id=110474
+2026-03-08 22:22:44,276 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:44,958 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:22:46,459 [INFO] [2/20] product_id=99316
+2026-03-08 22:22:46,863 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:47,389 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:22:48,891 [INFO] [3/20] product_id=108591
+2026-03-08 22:22:49,250 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:49,672 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:22:51,173 [INFO] [4/20] product_id=110645
+2026-03-08 22:22:51,541 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:52,007 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:22:53,509 [INFO] [5/20] product_id=90273
+2026-03-08 22:22:53,983 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:54,594 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:22:56,095 [INFO] [6/20] product_id=90166
+2026-03-08 22:22:56,436 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:56,917 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:22:58,418 [INFO] [7/20] product_id=97845
+2026-03-08 22:22:58,778 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:22:59,369 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:00,871 [INFO] [8/20] product_id=90736
+2026-03-08 22:23:01,208 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:01,725 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:03,226 [INFO] [9/20] product_id=98083
+2026-03-08 22:23:03,596 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:04,087 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:05,589 [INFO] [10/20] product_id=84781
+2026-03-08 22:23:05,974 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:06,537 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:08,038 [INFO] [11/20] product_id=107889
+2026-03-08 22:23:08,495 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:08,832 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:10,333 [INFO] [12/20] product_id=103302
+2026-03-08 22:23:10,840 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:11,226 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:12,727 [INFO] [13/20] product_id=84831
+2026-03-08 22:23:13,195 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:13,661 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:15,163 [INFO] [14/20] product_id=90744
+2026-03-08 22:23:15,523 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:16,041 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:17,542 [INFO] [15/20] product_id=102558
+2026-03-08 22:23:17,928 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:18,359 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:19,860 [INFO] [16/20] product_id=104166
+2026-03-08 22:23:20,322 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:20,803 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:22,303 [INFO] [17/20] product_id=103126
+2026-03-08 22:23:22,710 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:23,276 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:24,777 [INFO] [18/20] product_id=95519
+2026-03-08 22:23:25,907 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:26,561 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:28,062 [INFO] [19/20] product_id=92367
+2026-03-08 22:23:28,697 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:29,189 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:30,692 [INFO] [20/20] product_id=110584
+2026-03-08 22:23:31,115 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:23:31,577 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:23:33,080 [INFO] 
+==================================================
+2026-03-08 22:23:33,080 [INFO] ✅ Success : 0
+2026-03-08 22:23:33,081 [INFO] ❌ Failed  : 20
+2026-03-08 22:23:33,081 [INFO] 📁 Output  : data/product_data.csv
+2026-03-08 22:23:33,081 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-08 22:36:59,120 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-08 22:36:59,121 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-08 22:36:59,121 [INFO] 🌐 Khởi tạo session...
+2026-03-08 22:36:59,122 [INFO] [1/20] product_id=110474
+2026-03-08 22:36:59,715 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:00,227 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:01,728 [INFO] [2/20] product_id=99316
+2026-03-08 22:37:02,172 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:02,710 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:04,212 [INFO] [3/20] product_id=108591
+2026-03-08 22:37:04,734 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:05,145 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:06,647 [INFO] [4/20] product_id=110645
+2026-03-08 22:37:07,190 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:07,590 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:09,091 [INFO] [5/20] product_id=90273
+2026-03-08 22:37:09,447 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:09,961 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:11,462 [INFO] [6/20] product_id=90166
+2026-03-08 22:37:11,807 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:12,205 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:13,706 [INFO] [7/20] product_id=97845
+2026-03-08 22:37:14,055 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:14,372 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:15,875 [INFO] [8/20] product_id=90736
+2026-03-08 22:37:16,216 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:16,632 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:18,134 [INFO] [9/20] product_id=98083
+2026-03-08 22:37:18,472 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:18,895 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:20,396 [INFO] [10/20] product_id=84781
+2026-03-08 22:37:20,821 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:21,231 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:22,732 [INFO] [11/20] product_id=107889
+2026-03-08 22:37:23,165 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:23,501 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:25,002 [INFO] [12/20] product_id=103302
+2026-03-08 22:37:25,346 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:25,742 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:27,244 [INFO] [13/20] product_id=84831
+2026-03-08 22:37:27,607 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:28,491 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:29,992 [INFO] [14/20] product_id=90744
+2026-03-08 22:37:30,441 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:31,085 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:32,586 [INFO] [15/20] product_id=102558
+2026-03-08 22:37:33,179 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:33,541 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:35,043 [INFO] [16/20] product_id=104166
+2026-03-08 22:37:35,556 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:36,116 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:37,620 [INFO] [17/20] product_id=103126
+2026-03-08 22:37:38,022 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:38,427 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:39,928 [INFO] [18/20] product_id=95519
+2026-03-08 22:37:40,366 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:40,699 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:42,200 [INFO] [19/20] product_id=92367
+2026-03-08 22:37:42,736 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:43,341 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:44,844 [INFO] [20/20] product_id=110584
+2026-03-08 22:37:45,225 [INFO]   .com failed (url_error_403), trying source URL...
+2026-03-08 22:37:45,614 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:37:47,118 [INFO] 
+==================================================
+2026-03-08 22:37:47,119 [INFO] ✅ Success : 0
+2026-03-08 22:37:47,119 [INFO] ❌ Failed  : 20
+2026-03-08 22:37:47,120 [INFO] 📁 Output  : data/product_data.csv
+2026-03-08 22:37:47,121 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-08 22:44:42,546 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-08 22:44:42,547 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-08 22:44:42,547 [INFO] 🌐 Khởi tạo session...
+2026-03-08 22:44:42,548 [INFO] [1/20] product_id=110474
+2026-03-08 22:44:42,549 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-08 22:44:43,511 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:45,012 [INFO] [2/20] product_id=99316
+2026-03-08 22:44:45,013 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-08 22:44:45,774 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:47,278 [INFO] [3/20] product_id=108591
+2026-03-08 22:44:47,278 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-08 22:44:48,019 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:49,520 [INFO] [4/20] product_id=110645
+2026-03-08 22:44:49,521 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-08 22:44:49,990 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:51,491 [INFO] [5/20] product_id=90273
+2026-03-08 22:44:51,491 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-08 22:44:52,143 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:53,644 [INFO] [6/20] product_id=90166
+2026-03-08 22:44:53,645 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-pierscionki-cecily.html?stone2=diamond-Brillant&alloy=yellow-750&diamond=ruby&keyword=&matchtype=&gclid=EAIaIQobChMIxp-J2azj6QIVEaAYCh22TwjKEAEYASACEgLuxvD_BwE
+2026-03-08 22:44:54,031 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:55,533 [INFO] [7/20] product_id=97845
+2026-03-08 22:44:55,533 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-ring-alonnisos.html?fbclid=IwAR1lIW4AswS31kOUnk3-9s55fAuvIaeUX5OlsmLds1q0svamnQ6jSJpiCSY
+2026-03-08 22:44:55,868 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:57,370 [INFO] [8/20] product_id=90736
+2026-03-08 22:44:57,371 [INFO]   🔗 Crawling: https://www.glamira.ch/glamira-ring-gratia.html?alloy=red_white-585&diamond=diamond-Brillant&gclid=CjwKCAjwt-L2BRA_EiwAacX32fBRlNYvq6xyXv4jUcnrITGmXEVat8SLjc_B5i8_6qlSj1vdIKvBQhoCdbYQAvD_BwE
+2026-03-08 22:44:57,752 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:44:59,253 [INFO] [9/20] product_id=98083
+2026-03-08 22:44:59,254 [INFO]   🔗 Crawling: https://www.glamira.be/fr/bague-pour-femmes-white-innocence-4-mm.html?alloy=yellow-750&stone=diamond-Brillant
+2026-03-08 22:44:59,727 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:01,228 [INFO] [10/20] product_id=84781
+2026-03-08 22:45:01,229 [INFO]   🔗 Crawling: https://www.glamira.co.za/glamira-diamonds-ring-stella-skug100490.html?alloy=white-375&diamond=diamond-Brillant
+2026-03-08 22:45:01,740 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:03,242 [INFO] [11/20] product_id=107889
+2026-03-08 22:45:03,242 [INFO]   🔗 Crawling: https://www.glamira.at/exotic-dream-4-mm.html?alloy=white-585&stone=diamond-Zirconia
+2026-03-08 22:45:03,610 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:05,111 [INFO] [12/20] product_id=103302
+2026-03-08 22:45:05,112 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebonie.html?alloy=red-585&diamond=diamond-sapphire&stone2=diamond-sapphire&stone3=diamond-Brillant
+2026-03-08 22:45:05,740 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:07,242 [INFO] [13/20] product_id=84831
+2026-03-08 22:45:07,243 [INFO]   🔗 Crawling: https://www.glamira.it/glamira-anelli-allison-skug100300.html?alloy=white-585&diamond=diamond-Brillant&stone2=diamond-Brillant
+2026-03-08 22:45:07,824 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:09,326 [INFO] [14/20] product_id=90744
+2026-03-08 22:45:09,326 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-belva.html?itm_source=recommendation&itm_medium=sorting&diamond=diamond-Brillant&alloy=white-platin
+2026-03-08 22:45:09,734 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:11,236 [INFO] [15/20] product_id=102558
+2026-03-08 22:45:11,236 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-ring-evelina.html?alloy=white-750&diamond=diamond-sapphire
+2026-03-08 22:45:11,609 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:13,110 [INFO] [16/20] product_id=104166
+2026-03-08 22:45:13,111 [INFO]   🔗 Crawling: https://www.glamira.sk/glamira-ring-caridad.html?alloy=white-silber&diamond=diamond-Swarovsky&stone2=diamond-Swarovsky
+2026-03-08 22:45:13,532 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:15,034 [INFO] [17/20] product_id=103126
+2026-03-08 22:45:15,035 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebba.html?stone2=diamond-sapphire&alloy=yellow-750&diamond=diamond-sapphire&utm_source=criteo&utm_medium=retargeting&utm_campaign=webconversion
+2026-03-08 22:45:15,440 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:16,941 [INFO] [18/20] product_id=95519
+2026-03-08 22:45:16,942 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-griseus.html?alloy=yellow-585&diamond=ruby&stone2=diamond-Brillant
+2026-03-08 22:45:17,288 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:18,791 [INFO] [19/20] product_id=92367
+2026-03-08 22:45:18,792 [INFO]   🔗 Crawling: https://www.glamira.co.uk/glamira-ring-roselina-1.0-crt.html?stone2=diamond-Swarovsky&alloy=white-silber&diamond=peridot&gclid=CjwKCAjwt-L2BRA_EiwAacX32dKfcmFs3nj2-xA8A2Y5wKOc40UKPxoLoLINB7f8vFncPJ_-DCqAJRoCAeAQAvD_BwE
+2026-03-08 22:45:19,277 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:20,778 [INFO] [20/20] product_id=110584
+2026-03-08 22:45:20,778 [INFO]   🔗 Crawling: https://www.glamira.bg/glamira-earring-corliss.html?alloy=white-585&diamond=diamond-Swarovsky&stone2=diamond-sapphire
+2026-03-08 22:45:21,182 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:45:22,684 [INFO] 
+==================================================
+2026-03-08 22:45:22,685 [INFO] ✅ Success : 0
+2026-03-08 22:45:22,685 [INFO] ❌ Failed  : 20
+2026-03-08 22:45:22,686 [INFO] 📁 Output  : data/product_data.csv
+2026-03-08 22:45:22,686 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-08 22:54:51,040 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-08 22:54:51,040 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-08 22:54:51,042 [INFO] [1/20] product_id=110474
+2026-03-08 22:54:51,042 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-08 22:54:51,470 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:54:52,971 [INFO] [2/20] product_id=99316
+2026-03-08 22:54:52,972 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-08 22:54:53,581 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:54:55,082 [INFO] [3/20] product_id=108591
+2026-03-08 22:54:55,083 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-08 22:54:55,516 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:54:57,017 [INFO] [4/20] product_id=110645
+2026-03-08 22:54:57,019 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-08 22:54:57,399 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:54:58,900 [INFO] [5/20] product_id=90273
+2026-03-08 22:54:58,901 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-08 22:54:59,333 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:00,836 [INFO] [6/20] product_id=90166
+2026-03-08 22:55:00,837 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-pierscionki-cecily.html?stone2=diamond-Brillant&alloy=yellow-750&diamond=ruby&keyword=&matchtype=&gclid=EAIaIQobChMIxp-J2azj6QIVEaAYCh22TwjKEAEYASACEgLuxvD_BwE
+2026-03-08 22:55:01,222 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:02,723 [INFO] [7/20] product_id=97845
+2026-03-08 22:55:02,724 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-ring-alonnisos.html?fbclid=IwAR1lIW4AswS31kOUnk3-9s55fAuvIaeUX5OlsmLds1q0svamnQ6jSJpiCSY
+2026-03-08 22:55:03,076 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:04,577 [INFO] [8/20] product_id=90736
+2026-03-08 22:55:04,578 [INFO]   🔗 Crawling: https://www.glamira.ch/glamira-ring-gratia.html?alloy=red_white-585&diamond=diamond-Brillant&gclid=CjwKCAjwt-L2BRA_EiwAacX32fBRlNYvq6xyXv4jUcnrITGmXEVat8SLjc_B5i8_6qlSj1vdIKvBQhoCdbYQAvD_BwE
+2026-03-08 22:55:05,323 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:06,825 [INFO] [9/20] product_id=98083
+2026-03-08 22:55:06,826 [INFO]   🔗 Crawling: https://www.glamira.be/fr/bague-pour-femmes-white-innocence-4-mm.html?alloy=yellow-750&stone=diamond-Brillant
+2026-03-08 22:55:07,225 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:08,727 [INFO] [10/20] product_id=84781
+2026-03-08 22:55:08,727 [INFO]   🔗 Crawling: https://www.glamira.co.za/glamira-diamonds-ring-stella-skug100490.html?alloy=white-375&diamond=diamond-Brillant
+2026-03-08 22:55:09,229 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:10,730 [INFO] [11/20] product_id=107889
+2026-03-08 22:55:10,731 [INFO]   🔗 Crawling: https://www.glamira.at/exotic-dream-4-mm.html?alloy=white-585&stone=diamond-Zirconia
+2026-03-08 22:55:11,115 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:12,617 [INFO] [12/20] product_id=103302
+2026-03-08 22:55:12,617 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebonie.html?alloy=red-585&diamond=diamond-sapphire&stone2=diamond-sapphire&stone3=diamond-Brillant
+2026-03-08 22:55:12,994 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:14,496 [INFO] [13/20] product_id=84831
+2026-03-08 22:55:14,497 [INFO]   🔗 Crawling: https://www.glamira.it/glamira-anelli-allison-skug100300.html?alloy=white-585&diamond=diamond-Brillant&stone2=diamond-Brillant
+2026-03-08 22:55:14,897 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:16,399 [INFO] [14/20] product_id=90744
+2026-03-08 22:55:16,400 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-belva.html?itm_source=recommendation&itm_medium=sorting&diamond=diamond-Brillant&alloy=white-platin
+2026-03-08 22:55:16,785 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:18,287 [INFO] [15/20] product_id=102558
+2026-03-08 22:55:18,288 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-ring-evelina.html?alloy=white-750&diamond=diamond-sapphire
+2026-03-08 22:55:18,643 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:20,144 [INFO] [16/20] product_id=104166
+2026-03-08 22:55:20,145 [INFO]   🔗 Crawling: https://www.glamira.sk/glamira-ring-caridad.html?alloy=white-silber&diamond=diamond-Swarovsky&stone2=diamond-Swarovsky
+2026-03-08 22:55:20,540 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:22,042 [INFO] [17/20] product_id=103126
+2026-03-08 22:55:22,043 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebba.html?stone2=diamond-sapphire&alloy=yellow-750&diamond=diamond-sapphire&utm_source=criteo&utm_medium=retargeting&utm_campaign=webconversion
+2026-03-08 22:55:22,401 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:23,903 [INFO] [18/20] product_id=95519
+2026-03-08 22:55:23,904 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-griseus.html?alloy=yellow-585&diamond=ruby&stone2=diamond-Brillant
+2026-03-08 22:55:24,251 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:25,753 [INFO] [19/20] product_id=92367
+2026-03-08 22:55:25,754 [INFO]   🔗 Crawling: https://www.glamira.co.uk/glamira-ring-roselina-1.0-crt.html?stone2=diamond-Swarovsky&alloy=white-silber&diamond=peridot&gclid=CjwKCAjwt-L2BRA_EiwAacX32dKfcmFs3nj2-xA8A2Y5wKOc40UKPxoLoLINB7f8vFncPJ_-DCqAJRoCAeAQAvD_BwE
+2026-03-08 22:55:26,343 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:27,847 [INFO] [20/20] product_id=110584
+2026-03-08 22:55:27,848 [INFO]   🔗 Crawling: https://www.glamira.bg/glamira-earring-corliss.html?alloy=white-585&diamond=diamond-Swarovsky&stone2=diamond-sapphire
+2026-03-08 22:55:28,424 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:55:29,927 [INFO] 
+==================================================
+2026-03-08 22:55:29,927 [INFO] ✅ Success : 0
+2026-03-08 22:55:29,928 [INFO] ❌ Failed  : 20
+2026-03-08 22:55:29,928 [INFO] 📁 Output  : data/product_data.csv
+2026-03-08 22:55:29,929 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-08 22:57:17,068 [INFO] 🧪 TEST MODE: chỉ crawl 5 sản phẩm
+2026-03-08 22:57:17,068 [INFO] 📋 Tổng số sản phẩm cần crawl: 5
+2026-03-08 22:57:17,069 [INFO] [1/5] product_id=110474
+2026-03-08 22:57:17,070 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-08 22:57:17,586 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:57:19,088 [INFO] [2/5] product_id=99316
+2026-03-08 22:57:19,089 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-08 22:57:19,503 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:57:21,006 [INFO] [3/5] product_id=108591
+2026-03-08 22:57:21,006 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-08 22:57:21,622 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:57:23,123 [INFO] [4/5] product_id=110645
+2026-03-08 22:57:23,124 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-08 22:57:23,573 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:57:25,074 [INFO] [5/5] product_id=90273
+2026-03-08 22:57:25,075 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-08 22:57:25,602 [WARNING]   ❌ FAILED: url_error_403
+2026-03-08 22:57:27,104 [INFO] 
+==================================================
+2026-03-08 22:57:27,105 [INFO] ✅ Success : 0
+2026-03-08 22:57:27,105 [INFO] ❌ Failed  : 5
+2026-03-08 22:57:27,105 [INFO] 📁 Output  : data/product_data.csv
+2026-03-08 22:57:27,106 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 21:22:31,059 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-09 21:22:31,060 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-09 21:22:31,061 [INFO] [1/20] product_id=110474
+2026-03-09 21:22:31,062 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 21:22:33,920 [INFO]   ✅ Pendentif pour homme Viktor | None None
+2026-03-09 21:22:38,013 [INFO] [2/20] product_id=99316
+2026-03-09 21:22:38,014 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-09 21:22:44,878 [INFO]   ✅ Wedding Ring Sense Muse 4 mm | None None
+2026-03-09 21:22:48,687 [INFO] [3/20] product_id=108591
+2026-03-09 21:22:48,688 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-09 21:22:53,241 [WARNING]   ❌ no_product_name
+2026-03-09 21:22:58,951 [INFO] [4/20] product_id=110645
+2026-03-09 21:22:58,952 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-09 21:23:02,210 [INFO]   ✅ Anel de Noivado Titina 1.0 crt | None None
+2026-03-09 21:23:06,570 [INFO] [5/20] product_id=90273
+2026-03-09 21:23:06,571 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-09 21:23:08,724 [INFO]   ✅ GLAMIRA Prsten Harriet | None None
+2026-03-09 21:23:14,504 [INFO] [6/20] product_id=90166
+2026-03-09 21:23:14,505 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-pierscionki-cecily.html?stone2=diamond-Brillant&alloy=yellow-750&diamond=ruby&keyword=&matchtype=&gclid=EAIaIQobChMIxp-J2azj6QIVEaAYCh22TwjKEAEYASACEgLuxvD_BwE
+2026-03-09 21:23:16,474 [INFO]   ✅ Pierścionek zaręczynowy Cecily | None None
+2026-03-09 21:23:20,068 [INFO] [7/20] product_id=97845
+2026-03-09 21:23:20,069 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-ring-alonnisos.html?fbclid=IwAR1lIW4AswS31kOUnk3-9s55fAuvIaeUX5OlsmLds1q0svamnQ6jSJpiCSY
+2026-03-09 21:23:22,632 [INFO]   ✅ Bague de fiançailles Alonnisos | None None
+2026-03-09 21:23:26,865 [INFO] [8/20] product_id=90736
+2026-03-09 21:23:26,866 [INFO]   🔗 Crawling: https://www.glamira.ch/glamira-ring-gratia.html?alloy=red_white-585&diamond=diamond-Brillant&gclid=CjwKCAjwt-L2BRA_EiwAacX32fBRlNYvq6xyXv4jUcnrITGmXEVat8SLjc_B5i8_6qlSj1vdIKvBQhoCdbYQAvD_BwE
+2026-03-09 21:23:29,396 [INFO]   ✅ Verlobungsringe Gratia | None None
+2026-03-09 21:23:34,736 [INFO] [9/20] product_id=98083
+2026-03-09 21:23:34,736 [INFO]   🔗 Crawling: https://www.glamira.be/fr/bague-pour-femmes-white-innocence-4-mm.html?alloy=yellow-750&stone=diamond-Brillant
+2026-03-09 21:23:36,550 [INFO]   ✅ Alliance pour femme White Innocence 4 mm | None None
+2026-03-09 21:23:40,265 [INFO] [10/20] product_id=84781
+2026-03-09 21:23:40,266 [INFO]   🔗 Crawling: https://www.glamira.co.za/glamira-diamonds-ring-stella-skug100490.html?alloy=white-375&diamond=diamond-Brillant
+2026-03-09 21:23:43,669 [INFO]   ✅ GLAMIRA Ring Stella | None None
+2026-03-09 21:23:47,370 [INFO] [11/20] product_id=107889
+2026-03-09 21:23:47,371 [INFO]   🔗 Crawling: https://www.glamira.at/exotic-dream-4-mm.html?alloy=white-585&stone=diamond-Zirconia
+2026-03-09 21:23:49,103 [INFO]   ✅ Ehering Exotic Dream 4 mm | None None
+2026-03-09 21:23:53,921 [INFO] [12/20] product_id=103302
+2026-03-09 21:23:53,922 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebonie.html?alloy=red-585&diamond=diamond-sapphire&stone2=diamond-sapphire&stone3=diamond-Brillant
+2026-03-09 21:23:55,644 [INFO]   ✅ Verlobungsring Ebonie | None None
+2026-03-09 21:23:59,739 [INFO] [13/20] product_id=84831
+2026-03-09 21:23:59,740 [INFO]   🔗 Crawling: https://www.glamira.it/glamira-anelli-allison-skug100300.html?alloy=white-585&diamond=diamond-Brillant&stone2=diamond-Brillant
+2026-03-09 21:24:02,605 [INFO]   ✅ Anello di fidanzamento Allison | None None
+2026-03-09 21:24:06,663 [INFO] [14/20] product_id=90744
+2026-03-09 21:24:06,664 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-belva.html?itm_source=recommendation&itm_medium=sorting&diamond=diamond-Brillant&alloy=white-platin
+2026-03-09 21:24:09,414 [INFO]   ✅ Inel de Logodnă Belva | None None
+2026-03-09 21:24:13,025 [INFO] [15/20] product_id=102558
+2026-03-09 21:24:13,026 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-ring-evelina.html?alloy=white-750&diamond=diamond-sapphire
+2026-03-09 21:24:14,721 [INFO]   ✅ GLAMIRA Pierścionek Evelina | None None
+2026-03-09 21:24:19,710 [INFO] [16/20] product_id=104166
+2026-03-09 21:24:19,710 [INFO]   🔗 Crawling: https://www.glamira.sk/glamira-ring-caridad.html?alloy=white-silber&diamond=diamond-Swarovsky&stone2=diamond-Swarovsky
+2026-03-09 21:24:24,013 [INFO]   ✅ Glamira Prsteň Caridad | None None
+2026-03-09 21:24:27,765 [INFO] [17/20] product_id=103126
+2026-03-09 21:24:27,765 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebba.html?stone2=diamond-sapphire&alloy=yellow-750&diamond=diamond-sapphire&utm_source=criteo&utm_medium=retargeting&utm_campaign=webconversion
+2026-03-09 21:24:29,602 [INFO]   ✅ Verlobungsring Ebba | None None
+2026-03-09 21:24:32,714 [INFO] [18/20] product_id=95519
+2026-03-09 21:24:32,715 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-griseus.html?alloy=yellow-585&diamond=ruby&stone2=diamond-Brillant
+2026-03-09 21:24:34,307 [INFO]   ✅ GLAMIRA Ring Griseus | None None
+2026-03-09 21:24:37,809 [INFO] [19/20] product_id=92367
+2026-03-09 21:24:37,810 [INFO]   🔗 Crawling: https://www.glamira.co.uk/glamira-ring-roselina-1.0-crt.html?stone2=diamond-Swarovsky&alloy=white-silber&diamond=peridot&gclid=CjwKCAjwt-L2BRA_EiwAacX32dKfcmFs3nj2-xA8A2Y5wKOc40UKPxoLoLINB7f8vFncPJ_-DCqAJRoCAeAQAvD_BwE
+2026-03-09 21:24:40,868 [INFO]   ✅ Engagement Ring Roselina 1.0 crt | None None
+2026-03-09 21:24:45,453 [INFO] [20/20] product_id=110584
+2026-03-09 21:24:45,454 [INFO]   🔗 Crawling: https://www.glamira.bg/glamira-earring-corliss.html?alloy=white-585&diamond=diamond-Swarovsky&stone2=diamond-sapphire
+2026-03-09 21:24:46,972 [INFO]   ✅ Дамска обица Corliss | None None
+2026-03-09 21:24:50,752 [INFO] 
+==================================================
+2026-03-09 21:24:50,753 [INFO] ✅ Success : 19
+2026-03-09 21:24:50,761 [INFO] ❌ Failed  : 1
+2026-03-09 21:24:50,762 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 21:24:50,765 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 21:42:43,767 [INFO] 🧪 TEST MODE: chỉ crawl 10 sản phẩm
+2026-03-09 21:42:43,767 [INFO] 📋 Tổng số sản phẩm cần crawl: 10
+2026-03-09 21:42:43,769 [INFO] [1/10] product_id=110474
+2026-03-09 21:42:43,769 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 21:42:46,713 [INFO]   ✅ Pendentif pour homme Viktor | 416.7 None
+2026-03-09 21:42:52,129 [INFO] [2/10] product_id=99316
+2026-03-09 21:42:52,130 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-09 21:42:57,859 [INFO]   ✅ Wedding Ring Sense Muse 4 mm | 1764.9 None
+2026-03-09 21:43:03,077 [INFO] [3/10] product_id=108591
+2026-03-09 21:43:03,077 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-09 21:43:06,680 [WARNING]   ❌ no_product_name
+2026-03-09 21:43:11,774 [INFO] [4/10] product_id=110645
+2026-03-09 21:43:11,775 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-09 21:43:14,749 [INFO]   ✅ Anel de Noivado Titina 1.0 crt | 7623.9 None
+2026-03-09 21:43:18,681 [INFO] [5/10] product_id=90273
+2026-03-09 21:43:18,682 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-09 21:43:20,899 [INFO]   ✅ GLAMIRA Prsten Harriet | 15016 None
+2026-03-09 21:43:24,198 [INFO] [6/10] product_id=90166
+2026-03-09 21:43:24,200 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-pierscionki-cecily.html?stone2=diamond-Brillant&alloy=yellow-750&diamond=ruby&keyword=&matchtype=&gclid=EAIaIQobChMIxp-J2azj6QIVEaAYCh22TwjKEAEYASACEgLuxvD_BwE
+2026-03-09 21:43:26,421 [INFO]   ✅ Pierścionek zaręczynowy Cecily | 102870 None
+2026-03-09 21:43:29,426 [INFO] [7/10] product_id=97845
+2026-03-09 21:43:29,427 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-ring-alonnisos.html?fbclid=IwAR1lIW4AswS31kOUnk3-9s55fAuvIaeUX5OlsmLds1q0svamnQ6jSJpiCSY
+2026-03-09 21:43:31,971 [INFO]   ✅ Bague de fiançailles Alonnisos | 1280.7 None
+2026-03-09 21:43:36,180 [INFO] [8/10] product_id=90736
+2026-03-09 21:43:36,180 [INFO]   🔗 Crawling: https://www.glamira.ch/glamira-ring-gratia.html?alloy=red_white-585&diamond=diamond-Brillant&gclid=CjwKCAjwt-L2BRA_EiwAacX32fBRlNYvq6xyXv4jUcnrITGmXEVat8SLjc_B5i8_6qlSj1vdIKvBQhoCdbYQAvD_BwE
+2026-03-09 21:43:38,719 [INFO]   ✅ Verlobungsringe Gratia | 738 None
+2026-03-09 21:43:44,010 [INFO] [9/10] product_id=98083
+2026-03-09 21:43:44,010 [INFO]   🔗 Crawling: https://www.glamira.be/fr/bague-pour-femmes-white-innocence-4-mm.html?alloy=yellow-750&stone=diamond-Brillant
+2026-03-09 21:43:45,845 [INFO]   ✅ Alliance pour femme White Innocence 4 mm | 772.2 None
+2026-03-09 21:43:50,887 [INFO] [10/10] product_id=84781
+2026-03-09 21:43:50,888 [INFO]   🔗 Crawling: https://www.glamira.co.za/glamira-diamonds-ring-stella-skug100490.html?alloy=white-375&diamond=diamond-Brillant
+2026-03-09 21:43:54,190 [INFO]   ✅ GLAMIRA Ring Stella | 13314.6 None
+2026-03-09 21:43:59,039 [INFO] 
+==================================================
+2026-03-09 21:43:59,039 [INFO] ✅ Success : 9
+2026-03-09 21:43:59,039 [INFO] ❌ Failed  : 1
+2026-03-09 21:43:59,040 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 21:43:59,040 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 21:47:19,977 [INFO] 🧪 TEST MODE: chỉ crawl 1 sản phẩm
+2026-03-09 21:47:19,978 [INFO] 📋 Tổng số sản phẩm cần crawl: 1
+2026-03-09 21:47:19,979 [INFO] [1/1] product_id=110474
+2026-03-09 21:47:19,979 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 21:47:21,769 [INFO]   ✅ Pendentif pour homme Viktor | 416.7 None
+2026-03-09 21:47:24,924 [INFO] 
+==================================================
+2026-03-09 21:47:24,925 [INFO] ✅ Success : 1
+2026-03-09 21:47:24,925 [INFO] ❌ Failed  : 0
+2026-03-09 21:47:24,926 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 21:47:24,926 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 22:32:12,518 [INFO] 🧪 TEST MODE: chỉ crawl 2 sản phẩm
+2026-03-09 22:32:12,518 [INFO] 📋 Tổng số sản phẩm cần crawl: 2
+2026-03-09 22:32:12,519 [INFO] [1/2] product_id=110474
+2026-03-09 22:32:12,519 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 22:32:14,142 [INFO]   ✅ Pendentif pour homme Viktor | 416.7 EUR
+2026-03-09 22:32:18,114 [INFO] [2/2] product_id=99316
+2026-03-09 22:32:18,115 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-09 22:32:19,742 [INFO]   ✅ Wedding Ring Sense Muse 4 mm | 1764.9 AUD
+2026-03-09 22:32:25,157 [INFO] 
+==================================================
+2026-03-09 22:32:25,157 [INFO] ✅ Success : 2
+2026-03-09 22:32:25,158 [INFO] ❌ Failed  : 0
+2026-03-09 22:32:25,158 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 22:32:25,158 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 22:34:46,521 [INFO] 🧪 TEST MODE: chỉ crawl 5 sản phẩm
+2026-03-09 22:34:46,522 [INFO] 📋 Tổng số sản phẩm cần crawl: 5
+2026-03-09 22:34:46,523 [INFO] [1/5] product_id=110474
+2026-03-09 22:34:46,523 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 22:34:48,173 [INFO]   ✅ Pendentif pour homme Viktor | 416.7 EUR
+2026-03-09 22:34:52,941 [INFO] [2/5] product_id=99316
+2026-03-09 22:34:52,942 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-09 22:34:54,868 [INFO]   ✅ Wedding Ring Sense Muse 4 mm | 1764.9 AUD
+2026-03-09 22:34:58,304 [INFO] [3/5] product_id=108591
+2026-03-09 22:34:58,304 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-09 22:35:00,916 [WARNING]   ❌ no_product_name
+2026-03-09 22:35:05,867 [INFO] [4/5] product_id=110645
+2026-03-09 22:35:05,867 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-09 22:35:08,005 [INFO]   ✅ Anel de Noivado Titina 1.0 crt | 7623.9 EUR
+2026-03-09 22:35:13,807 [INFO] [5/5] product_id=90273
+2026-03-09 22:35:13,808 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-09 22:35:15,149 [INFO]   ✅ GLAMIRA Prsten Harriet | 15016 CZK
+2026-03-09 22:35:20,048 [INFO] 
+==================================================
+2026-03-09 22:35:20,048 [INFO] ✅ Success : 4
+2026-03-09 22:35:20,049 [INFO] ❌ Failed  : 1
+2026-03-09 22:35:20,049 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 22:35:20,049 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 22:40:20,261 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-09 22:40:20,261 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-09 22:40:20,262 [INFO] [1/20] product_id=110474
+2026-03-09 22:40:20,262 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 22:40:22,075 [INFO]   ✅ Pendentif pour homme Viktor | 416.7 EUR
+2026-03-09 22:40:26,050 [INFO] [2/20] product_id=99316
+2026-03-09 22:40:26,051 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-09 22:40:27,608 [INFO]   ✅ Wedding Ring Sense Muse 4 mm | 1764.9 AUD
+2026-03-09 22:40:32,765 [INFO] [3/20] product_id=108591
+2026-03-09 22:40:32,766 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-09 22:40:35,405 [WARNING]   ❌ no_product_name
+2026-03-09 22:40:39,763 [INFO] [4/20] product_id=110645
+2026-03-09 22:40:39,764 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-09 22:40:41,592 [INFO]   ✅ Anel de Noivado Titina 1.0 crt | 7623.9 EUR
+2026-03-09 22:40:47,282 [INFO] [5/20] product_id=90273
+2026-03-09 22:40:47,283 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-09 22:40:48,236 [INFO]   ✅ GLAMIRA Prsten Harriet | 15016 CZK
+2026-03-09 22:40:52,541 [INFO] [6/20] product_id=90166
+2026-03-09 22:40:52,541 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-pierscionki-cecily.html?stone2=diamond-Brillant&alloy=yellow-750&diamond=ruby&keyword=&matchtype=&gclid=EAIaIQobChMIxp-J2azj6QIVEaAYCh22TwjKEAEYASACEgLuxvD_BwE
+2026-03-09 22:40:53,685 [INFO]   ✅ Pierścionek zaręczynowy Cecily | 102870 PLN
+2026-03-09 22:40:58,708 [INFO] [7/20] product_id=97845
+2026-03-09 22:40:58,708 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-ring-alonnisos.html?fbclid=IwAR1lIW4AswS31kOUnk3-9s55fAuvIaeUX5OlsmLds1q0svamnQ6jSJpiCSY
+2026-03-09 22:41:00,362 [INFO]   ✅ Bague de fiançailles Alonnisos | 1280.7 EUR
+2026-03-09 22:41:04,644 [INFO] [8/20] product_id=90736
+2026-03-09 22:41:04,644 [INFO]   🔗 Crawling: https://www.glamira.ch/glamira-ring-gratia.html?alloy=red_white-585&diamond=diamond-Brillant&gclid=CjwKCAjwt-L2BRA_EiwAacX32fBRlNYvq6xyXv4jUcnrITGmXEVat8SLjc_B5i8_6qlSj1vdIKvBQhoCdbYQAvD_BwE
+2026-03-09 22:41:06,527 [INFO]   ✅ Verlobungsringe Gratia | 738 CHF
+2026-03-09 22:41:11,190 [INFO] [9/20] product_id=98083
+2026-03-09 22:41:11,190 [INFO]   🔗 Crawling: https://www.glamira.be/fr/bague-pour-femmes-white-innocence-4-mm.html?alloy=yellow-750&stone=diamond-Brillant
+2026-03-09 22:41:12,325 [INFO]   ✅ Alliance pour femme White Innocence 4 mm | 772.2 EUR
+2026-03-09 22:41:16,305 [INFO] [10/20] product_id=84781
+2026-03-09 22:41:16,306 [INFO]   🔗 Crawling: https://www.glamira.co.za/glamira-diamonds-ring-stella-skug100490.html?alloy=white-375&diamond=diamond-Brillant
+2026-03-09 22:41:18,141 [INFO]   ✅ GLAMIRA Ring Stella | 13314.6 ZAR
+2026-03-09 22:41:22,380 [INFO] [11/20] product_id=107889
+2026-03-09 22:41:22,381 [INFO]   🔗 Crawling: https://www.glamira.at/exotic-dream-4-mm.html?alloy=white-585&stone=diamond-Zirconia
+2026-03-09 22:41:24,064 [INFO]   ✅ Ehering Exotic Dream 4 mm | 1682.1 EUR
+2026-03-09 22:41:29,307 [INFO] [12/20] product_id=103302
+2026-03-09 22:41:29,308 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebonie.html?alloy=red-585&diamond=diamond-sapphire&stone2=diamond-sapphire&stone3=diamond-Brillant
+2026-03-09 22:41:31,171 [INFO]   ✅ Verlobungsring Ebonie | 7880.4 EUR
+2026-03-09 22:41:35,398 [INFO] [13/20] product_id=84831
+2026-03-09 22:41:35,398 [INFO]   🔗 Crawling: https://www.glamira.it/glamira-anelli-allison-skug100300.html?alloy=white-585&diamond=diamond-Brillant&stone2=diamond-Brillant
+2026-03-09 22:41:38,056 [INFO]   ✅ Anello di fidanzamento Allison | 2320.2 EUR
+2026-03-09 22:41:41,511 [INFO] [14/20] product_id=90744
+2026-03-09 22:41:41,512 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-belva.html?itm_source=recommendation&itm_medium=sorting&diamond=diamond-Brillant&alloy=white-platin
+2026-03-09 22:41:43,441 [INFO]   ✅ Inel de Logodnă Belva | 8918.1 RON
+2026-03-09 22:41:48,255 [INFO] [15/20] product_id=102558
+2026-03-09 22:41:48,256 [INFO]   🔗 Crawling: https://www.glamira.pl/glamira-ring-evelina.html?alloy=white-750&diamond=diamond-sapphire
+2026-03-09 22:41:50,006 [INFO]   ✅ GLAMIRA Pierścionek Evelina | 11104.2 PLN
+2026-03-09 22:41:53,354 [INFO] [16/20] product_id=104166
+2026-03-09 22:41:53,355 [INFO]   🔗 Crawling: https://www.glamira.sk/glamira-ring-caridad.html?alloy=white-silber&diamond=diamond-Swarovsky&stone2=diamond-Swarovsky
+2026-03-09 22:41:56,451 [INFO]   ✅ Glamira Prsteň Caridad | 258620.4 EUR
+2026-03-09 22:42:01,215 [INFO] [17/20] product_id=103126
+2026-03-09 22:42:01,216 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-ebba.html?stone2=diamond-sapphire&alloy=yellow-750&diamond=diamond-sapphire&utm_source=criteo&utm_medium=retargeting&utm_campaign=webconversion
+2026-03-09 22:42:02,925 [INFO]   ✅ Verlobungsring Ebba | 7948.8 EUR
+2026-03-09 22:42:08,878 [INFO] [18/20] product_id=95519
+2026-03-09 22:42:08,878 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-griseus.html?alloy=yellow-585&diamond=ruby&stone2=diamond-Brillant
+2026-03-09 22:42:10,418 [INFO]   ✅ GLAMIRA Ring Griseus | 1987.2 EUR
+2026-03-09 22:42:15,310 [INFO] [19/20] product_id=92367
+2026-03-09 22:42:15,311 [INFO]   🔗 Crawling: https://www.glamira.co.uk/glamira-ring-roselina-1.0-crt.html?stone2=diamond-Swarovsky&alloy=white-silber&diamond=peridot&gclid=CjwKCAjwt-L2BRA_EiwAacX32dKfcmFs3nj2-xA8A2Y5wKOc40UKPxoLoLINB7f8vFncPJ_-DCqAJRoCAeAQAvD_BwE
+2026-03-09 22:42:17,593 [INFO]   ✅ Engagement Ring Roselina 1.0 crt | 6443.1 GBP
+2026-03-09 22:42:20,790 [INFO] [20/20] product_id=110584
+2026-03-09 22:42:20,791 [INFO]   🔗 Crawling: https://www.glamira.bg/glamira-earring-corliss.html?alloy=white-585&diamond=diamond-Swarovsky&stone2=diamond-sapphire
+2026-03-09 22:42:23,366 [INFO]   ✅ Дамска обица Corliss | 2155.5 EUR
+2026-03-09 22:42:28,043 [INFO] 
+==================================================
+2026-03-09 22:42:28,044 [INFO] ✅ Success : 19
+2026-03-09 22:42:28,044 [INFO] ❌ Failed  : 1
+2026-03-09 22:42:28,044 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 22:42:28,044 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-09 22:46:36,695 [INFO] 🧪 TEST MODE: chỉ crawl 5 sản phẩm
+2026-03-09 22:46:36,695 [INFO] 📋 Tổng số sản phẩm cần crawl: 5
+2026-03-09 22:46:36,696 [INFO] [1/5] product_id=110474
+2026-03-09 22:46:36,697 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 22:47:56,436 [INFO] 🧪 TEST MODE: chỉ crawl 5 sản phẩm
+2026-03-09 22:47:56,436 [INFO] 📋 Tổng số sản phẩm cần crawl: 5
+2026-03-09 22:47:56,438 [INFO] [1/5] product_id=110474
+2026-03-09 22:47:56,438 [INFO]   🔗 Crawling: https://www.glamira.fr/glamira-pendant-viktor.html?alloy=yellow-375
+2026-03-09 22:47:58,021 [INFO]   ✅ Pendentif pour homme Viktor | 416.7 EUR
+2026-03-09 22:48:03,178 [INFO] [2/5] product_id=99316
+2026-03-09 22:48:03,179 [INFO]   🔗 Crawling: https://www.glamira.com.au/sense-muse-4-mm.html?alloy=white_red-375&gclid=CjwKCAjwt-L2BRA_EiwAacX32XcmXGbA9nZc_T8tqYJ-booYD9ijzpEafsvYrpmhyKapPlsThjQ6shoCQ4gQAvD_BwE
+2026-03-09 22:48:04,340 [INFO]   ✅ Wedding Ring Sense Muse 4 mm | 1764.9 AUD
+2026-03-09 22:48:09,502 [INFO] [3/5] product_id=108591
+2026-03-09 22:48:09,502 [INFO]   🔗 Crawling: https://www.glamira.at/checkout/cart/configure/id/2243494/
+2026-03-09 22:48:12,320 [WARNING]   ❌ no_product_name
+2026-03-09 22:48:18,200 [INFO] [4/5] product_id=110645
+2026-03-09 22:48:18,201 [INFO]   🔗 Crawling: https://www.glamira.pt/glamira-ring-titina-1.0-crt.html?alloy=white-585&diamond=diamond-Brillant&gclid=EAIaIQobChMI3sr6kJvm6QIVYaVRCh1FpwtWEAEYASABEgL0zPD_BwE
+2026-03-09 22:48:20,611 [INFO]   ✅ Anel de Noivado Titina 1.0 crt | 7623.9 EUR
+2026-03-09 22:48:25,095 [INFO] [5/5] product_id=90273
+2026-03-09 22:48:25,096 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-prsten-harriet.html?fbclid=IwAR3l1p1cU7X6GN_gksIml4BGZfLg2JkU22ISyQA7SAJXBJDXVeZooX0U6Jo
+2026-03-09 22:48:26,188 [INFO]   ✅ GLAMIRA Prsten Harriet | 15016 CZK
+2026-03-09 22:48:30,520 [INFO] 
+==================================================
+2026-03-09 22:48:30,520 [INFO] ✅ Success : 4
+2026-03-09 22:48:30,521 [INFO] ❌ Failed  : 1
+2026-03-09 22:48:30,521 [INFO] 📁 Output  : data/product_data.csv
+2026-03-09 22:48:30,522 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 19:27:33,989 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-10 19:27:33,990 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-10 19:27:33,991 [INFO] [1/20] product_id=105277
+2026-03-10 19:27:33,992 [INFO]   🔗 Crawling: https://www.glamira.ch/golden-choice-6-mm.html?fbclid=IwAR1d53FdGeDXBsLNPF2UWlEkrOnp1gjMdh_I2Ebi7UAEmWjxW1XPS7IKSlM&alloy=red-585
+2026-03-10 19:27:37,849 [INFO]   ✅ Trauring Golden Choice 6 mm | 2351.7 CHF
+2026-03-10 19:27:41,165 [INFO] [2/20] product_id=99408
+2026-03-10 19:27:41,165 [INFO]   🔗 Crawling: https://www.glamira.fr/bague-pour-femmes-sense-dot-10-mm.html?alloy=white_red-375
+2026-03-10 19:27:44,393 [INFO]   ✅ Bague pour femmes Sense Dot 10 mm | 1231.2 EUR
+2026-03-10 19:27:48,722 [INFO] [3/20] product_id=101185
+2026-03-10 19:27:48,723 [INFO]   🔗 Crawling: https://www.glamira.co.za/womens-ring-sensual-joy-5-mm.html?stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting&fbclid=IwAR0mQutLAz2PRs2cG9NXA5KkMBxnDdRpsCyxScubgesd9I23je95tSfxIxA&alloy=white_yellow-585
+2026-03-10 19:27:51,737 [INFO]   ✅ Women's Wedding Ring Sensual Joy 5 mm | 46278 ZAR
+2026-03-10 19:27:57,701 [INFO] [4/20] product_id=105990
+2026-03-10 19:27:57,702 [INFO]   🔗 Crawling: https://www.glamira.co.za/damenring-wondrous-touch-6-mm.html?stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting&fbclid=IwAR3nWvkh93prvh8I6tyj4rk2SfFmWsTBEV9nCeKmqIhxQ83cf9rauFrBGMM&alloy=red-585
+2026-03-10 19:27:59,861 [INFO]   ✅ Women's Wedding Ring Wondrous Touch 6 mm | 24398.1 ZAR
+2026-03-10 19:28:04,220 [INFO] [5/20] product_id=107472
+2026-03-10 19:28:04,221 [INFO]   🔗 Crawling: https://www.glamira.co.uk/womens-ring-bright-set-8-mm.html?stone=none&fbclid=IwAR1PBVXgfeivDT4fYr5UBKh98u0rOE_brz9hTa8RCmpaRCD3XCqxYkEhiSw&alloy=white-585
+2026-03-10 19:28:08,976 [INFO]   ✅ Women's Ring Bright Set 8 mm | 1497.6 GBP
+2026-03-10 19:28:14,499 [INFO] [6/20] product_id=104768
+2026-03-10 19:28:14,500 [INFO]   🔗 Crawling: https://www.glamira.co.uk/womens-ring-sense-tear-10-mm.html?stone=bluediamond&fbclid=IwAR3Pcw15PRFLndlvKqJqOVYEpTtDwat0ORBcLmL71CaJIDSB8TKAegU30rM&alloy=red-585
+2026-03-10 19:28:17,779 [INFO]   ✅ Women's Ring Sense Tear 10 mm | 1700.1 GBP
+2026-03-10 19:28:21,722 [INFO] [7/20] product_id=101361
+2026-03-10 19:28:21,723 [INFO]   🔗 Crawling: https://www.glamira.no/glamira-ring-trampus.html?fbclid=IwAR2PxqqphUCQdALHxZqxjYMOi_KhLNyGGprEYUFm09C8TMePtwIQCp-UTGI
+2026-03-10 19:28:25,849 [INFO]   ✅ Mannens ring Trampus | 31833.9 NOK
+2026-03-10 19:28:29,336 [INFO] [8/20] product_id=98203
+2026-03-10 19:28:29,337 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-earring-sypery.html?keyword&matchtype&fbclid=IwAR0re7DFJlBabiJEnYLSji3zTROe7fGOZbKGy8qjRdHFIHEmyHMR4PJJeko
+2026-03-10 19:28:34,416 [INFO]   ✅ Dámský náušnice Sypery | 22375 CZK
+2026-03-10 19:28:40,028 [INFO] [9/20] product_id=110570
+2026-03-10 19:28:40,028 [INFO]   🔗 Crawling: https://www.glamira.dk/glamira-ring-breanne.html?alloy=white-585&diamond=sapphire&stone2=diamond-Brillant
+2026-03-10 19:28:41,679 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:28:45,599 [INFO] [10/20] product_id=92375
+2026-03-10 19:28:45,599 [INFO]   🔗 Crawling: https://www.glamira.hu/glamira-gyuru-savanna-0.1-crt.html?stone2=diamond-Brillant&alloy=white_red-585&diamond=diamond-Brillant
+2026-03-10 19:28:47,347 [INFO]   ✅ Eljegyzési gyűrű Savanna 0.1 crt | 332821 HUF
+2026-03-10 19:28:51,571 [INFO] [11/20] product_id=108568
+2026-03-10 19:28:51,572 [INFO]   🔗 Crawling: https://www.glamira.com.tr/glamira-pendant-asmaa.html?alloy=white_yellow-585&diamond=rose-quartz-cabochon&stone2=diamond-Swarovsky&stone3=diamond-Swarovsky&fbclid=IwAR1Zf9WJwoGcMD7uu8uMcS1dE0RM8zeaoiFol2ZVjyijOvePNXcZpP4WzMo
+2026-03-10 19:28:54,077 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:28:57,856 [INFO] [12/20] product_id=96460
+2026-03-10 19:28:57,857 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-amadora.html?alloy=white-585&diamond=blackdiamond&stone2=diamond-Brillant
+2026-03-10 19:29:00,245 [INFO]   ✅ Inel de Logodnă Amadora | 5261.4 RON
+2026-03-10 19:29:03,727 [INFO] [13/20] product_id=93400
+2026-03-10 19:29:03,729 [INFO]   🔗 Crawling: https://www.glamira.es/anillo-de-hombre-classic-light-9-mm.html?fbclid=IwAR0ctdUVyFiGZKPm1PN1Hpp9jNsgOZix7CJvHAqZ0JHuI0wG2b58D5RVUCc&alloy=yellow-375
+2026-03-10 19:29:07,457 [INFO]   ✅ Anillo de hombre Classic Light 9 mm | 2239.2 EUR
+2026-03-10 19:29:13,190 [INFO] [14/20] product_id=105802
+2026-03-10 19:29:13,190 [INFO]   🔗 Crawling: https://www.glamira.co.cr/anillo-de-mujer-unique-beauty-10-mm.html?alloy=white-585&stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting
+2026-03-10 19:29:17,818 [INFO]   ✅ Anillo de mujer Unique Beauty 10 mm | 1153856.7 CRC
+2026-03-10 19:29:22,964 [INFO] [15/20] product_id=87281
+2026-03-10 19:29:22,965 [INFO]   🔗 Crawling: https://www.glamira.com/womens-ring-pure-well.html?stone=diamond-Brillant&itm_source=recommendation&itm_medium=sorting&alloy=white_yellow-417
+2026-03-10 19:29:26,786 [INFO]   ✅ Women's Ring Pure Well | 886.50 USD
+2026-03-10 19:29:31,943 [INFO] [16/20] product_id=97272
+2026-03-10 19:29:31,944 [INFO]   🔗 Crawling: https://www.glamira.com.pe/ornate-beauty-8-mm.html?alloy=white-silber
+2026-03-10 19:29:36,028 [INFO]   ✅ Anillo de boda Ornate Beauty 8 mm | 4516.2 PEN
+2026-03-10 19:29:40,136 [INFO] [17/20] product_id=105930
+2026-03-10 19:29:40,138 [INFO]   🔗 Crawling: https://www.glamira.co.uk/men-s-ring-universe-oceania-5-mm.html?fbclid=IwAR2DPo2AtSP8rz2ReHCy5nhhgnE9_48GEAzvgzsKWIHp9THp3m_5LewyUXU&alloy=red-585
+2026-03-10 19:29:42,658 [INFO]   ✅ Men's Wedding Ring Universe Oceania 5 mm | 992.7 GBP
+2026-03-10 19:29:48,651 [INFO] [18/20] product_id=104629
+2026-03-10 19:29:48,652 [INFO]   🔗 Crawling: https://www.glamira.ch/fr/romantic-shape-8-mm.html?alloy=white-375&alloy=white-375
+2026-03-10 19:29:51,097 [INFO]   ✅ Romantic Shape 8 mm | 1821.6 CHF
+2026-03-10 19:29:54,515 [INFO] [19/20] product_id=105524
+2026-03-10 19:29:54,516 [INFO]   🔗 Crawling: https://www.glamira.com.co/anillo-de-mujer-serenity-chance-8-mm.html?alloy=white_red-platin_585
+2026-03-10 19:29:56,713 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:30:01,933 [INFO] [20/20] product_id=99572
+2026-03-10 19:30:01,934 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-men-earring-culiacan.html?alloy=white-silber
+2026-03-10 19:30:04,118 [INFO]   ✅ Cercei bărbați Culiacan | 1168.2 RON
+2026-03-10 19:30:10,033 [INFO] 
+==================================================
+2026-03-10 19:30:10,033 [INFO] ✅ Success : 17
+2026-03-10 19:30:10,033 [INFO] ❌ Failed  : 3
+2026-03-10 19:30:10,034 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 19:30:10,034 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 19:38:04,498 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-10 19:38:04,499 [INFO] 📋 Tổng số sản phẩm cần crawl: 20
+2026-03-10 19:38:04,500 [INFO] [1/20] product_id=105277
+2026-03-10 19:38:04,501 [INFO]   🔗 Crawling: https://www.glamira.ch/golden-choice-6-mm.html?fbclid=IwAR1d53FdGeDXBsLNPF2UWlEkrOnp1gjMdh_I2Ebi7UAEmWjxW1XPS7IKSlM&alloy=red-585
+2026-03-10 19:38:06,623 [INFO]   ✅ Trauring Golden Choice 6 mm | 2351.7 CHF
+2026-03-10 19:38:12,452 [INFO] [2/20] product_id=99408
+2026-03-10 19:38:12,453 [INFO]   🔗 Crawling: https://www.glamira.fr/bague-pour-femmes-sense-dot-10-mm.html?alloy=white_red-375
+2026-03-10 19:38:14,603 [INFO]   ✅ Bague pour femmes Sense Dot 10 mm | 1231.2 EUR
+2026-03-10 19:38:18,589 [INFO] [3/20] product_id=101185
+2026-03-10 19:38:18,590 [INFO]   🔗 Crawling: https://www.glamira.co.za/womens-ring-sensual-joy-5-mm.html?stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting&fbclid=IwAR0mQutLAz2PRs2cG9NXA5KkMBxnDdRpsCyxScubgesd9I23je95tSfxIxA&alloy=white_yellow-585
+2026-03-10 19:38:19,904 [INFO]   ✅ Women's Wedding Ring Sensual Joy 5 mm | 46278 ZAR
+2026-03-10 19:38:23,872 [INFO] [4/20] product_id=105990
+2026-03-10 19:38:23,873 [INFO]   🔗 Crawling: https://www.glamira.co.za/damenring-wondrous-touch-6-mm.html?stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting&fbclid=IwAR3nWvkh93prvh8I6tyj4rk2SfFmWsTBEV9nCeKmqIhxQ83cf9rauFrBGMM&alloy=red-585
+2026-03-10 19:38:25,199 [INFO]   ✅ Women's Wedding Ring Wondrous Touch 6 mm | 24398.1 ZAR
+2026-03-10 19:38:28,995 [INFO] [5/20] product_id=107472
+2026-03-10 19:38:28,996 [INFO]   🔗 Crawling: https://www.glamira.co.uk/womens-ring-bright-set-8-mm.html?stone=none&fbclid=IwAR1PBVXgfeivDT4fYr5UBKh98u0rOE_brz9hTa8RCmpaRCD3XCqxYkEhiSw&alloy=white-585
+2026-03-10 19:38:31,177 [INFO]   ✅ Women's Ring Bright Set 8 mm | 1497.6 GBP
+2026-03-10 19:38:34,625 [INFO] [6/20] product_id=104768
+2026-03-10 19:38:34,626 [INFO]   🔗 Crawling: https://www.glamira.co.uk/womens-ring-sense-tear-10-mm.html?stone=bluediamond&fbclid=IwAR3Pcw15PRFLndlvKqJqOVYEpTtDwat0ORBcLmL71CaJIDSB8TKAegU30rM&alloy=red-585
+2026-03-10 19:38:36,705 [INFO]   ✅ Women's Ring Sense Tear 10 mm | 1700.1 GBP
+2026-03-10 19:38:39,984 [INFO] [7/20] product_id=101361
+2026-03-10 19:38:39,985 [INFO]   🔗 Crawling: https://www.glamira.no/glamira-ring-trampus.html?fbclid=IwAR2PxqqphUCQdALHxZqxjYMOi_KhLNyGGprEYUFm09C8TMePtwIQCp-UTGI
+2026-03-10 19:38:41,998 [INFO]   ✅ Mannens ring Trampus | 31833.9 NOK
+2026-03-10 19:38:45,111 [INFO] [8/20] product_id=98203
+2026-03-10 19:38:45,112 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-earring-sypery.html?keyword&matchtype&fbclid=IwAR0re7DFJlBabiJEnYLSji3zTROe7fGOZbKGy8qjRdHFIHEmyHMR4PJJeko
+2026-03-10 19:38:47,947 [INFO]   ✅ Dámský náušnice Sypery | 22375 CZK
+2026-03-10 19:38:53,913 [INFO] [9/20] product_id=110570
+2026-03-10 19:38:53,914 [INFO]   🔗 Crawling: https://www.glamira.dk/glamira-ring-breanne.html?alloy=white-585&diamond=sapphire&stone2=diamond-Brillant
+2026-03-10 19:38:55,389 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:39:00,941 [INFO] [10/20] product_id=92375
+2026-03-10 19:39:00,942 [INFO]   🔗 Crawling: https://www.glamira.hu/glamira-gyuru-savanna-0.1-crt.html?stone2=diamond-Brillant&alloy=white_red-585&diamond=diamond-Brillant
+2026-03-10 19:39:02,151 [INFO]   ✅ Eljegyzési gyűrű Savanna 0.1 crt | 332821 HUF
+2026-03-10 19:39:06,361 [INFO] [11/20] product_id=108568
+2026-03-10 19:39:06,362 [INFO]   🔗 Crawling: https://www.glamira.com.tr/glamira-pendant-asmaa.html?alloy=white_yellow-585&diamond=rose-quartz-cabochon&stone2=diamond-Swarovsky&stone3=diamond-Swarovsky&fbclid=IwAR1Zf9WJwoGcMD7uu8uMcS1dE0RM8zeaoiFol2ZVjyijOvePNXcZpP4WzMo
+2026-03-10 19:39:08,883 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:39:14,855 [INFO] [12/20] product_id=96460
+2026-03-10 19:39:14,856 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-amadora.html?alloy=white-585&diamond=blackdiamond&stone2=diamond-Brillant
+2026-03-10 19:39:16,092 [INFO]   ✅ Inel de Logodnă Amadora | 5261.4 RON
+2026-03-10 19:39:22,055 [INFO] [13/20] product_id=93400
+2026-03-10 19:39:22,056 [INFO]   🔗 Crawling: https://www.glamira.es/anillo-de-hombre-classic-light-9-mm.html?fbclid=IwAR0ctdUVyFiGZKPm1PN1Hpp9jNsgOZix7CJvHAqZ0JHuI0wG2b58D5RVUCc&alloy=yellow-375
+2026-03-10 19:39:23,107 [INFO]   ✅ Anillo de hombre Classic Light 9 mm | 2239.2 EUR
+2026-03-10 19:39:27,883 [INFO] [14/20] product_id=105802
+2026-03-10 19:39:27,883 [INFO]   🔗 Crawling: https://www.glamira.co.cr/anillo-de-mujer-unique-beauty-10-mm.html?alloy=white-585&stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting
+2026-03-10 19:39:29,313 [INFO]   ✅ Anillo de mujer Unique Beauty 10 mm | 1153856.7 CRC
+2026-03-10 19:39:33,336 [INFO] [15/20] product_id=87281
+2026-03-10 19:39:33,337 [INFO]   🔗 Crawling: https://www.glamira.com/womens-ring-pure-well.html?stone=diamond-Brillant&itm_source=recommendation&itm_medium=sorting&alloy=white_yellow-417
+2026-03-10 19:39:35,735 [INFO]   ✅ Women's Ring Pure Well | 886.50 USD
+2026-03-10 19:39:38,775 [INFO] [16/20] product_id=97272
+2026-03-10 19:39:38,776 [INFO]   🔗 Crawling: https://www.glamira.com.pe/ornate-beauty-8-mm.html?alloy=white-silber
+2026-03-10 19:39:41,394 [INFO]   ✅ Anillo de boda Ornate Beauty 8 mm | 4516.2 PEN
+2026-03-10 19:39:46,093 [INFO] [17/20] product_id=105930
+2026-03-10 19:39:46,094 [INFO]   🔗 Crawling: https://www.glamira.co.uk/men-s-ring-universe-oceania-5-mm.html?fbclid=IwAR2DPo2AtSP8rz2ReHCy5nhhgnE9_48GEAzvgzsKWIHp9THp3m_5LewyUXU&alloy=red-585
+2026-03-10 19:39:48,375 [INFO]   ✅ Men's Wedding Ring Universe Oceania 5 mm | 992.7 GBP
+2026-03-10 19:39:52,208 [INFO] [18/20] product_id=104629
+2026-03-10 19:39:52,209 [INFO]   🔗 Crawling: https://www.glamira.ch/fr/romantic-shape-8-mm.html?alloy=white-375&alloy=white-375
+2026-03-10 19:39:53,723 [INFO]   ✅ Romantic Shape 8 mm | 1821.6 CHF
+2026-03-10 19:39:57,765 [INFO] [19/20] product_id=105524
+2026-03-10 19:39:57,765 [INFO]   🔗 Crawling: https://www.glamira.com.co/anillo-de-mujer-serenity-chance-8-mm.html?alloy=white_red-platin_585
+2026-03-10 19:39:59,990 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:40:05,659 [INFO] [20/20] product_id=99572
+2026-03-10 19:40:05,660 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-men-earring-culiacan.html?alloy=white-silber
+2026-03-10 19:40:07,029 [INFO]   ✅ Cercei bărbați Culiacan | 1168.2 RON
+2026-03-10 19:40:10,731 [INFO] 
+==================================================
+2026-03-10 19:40:10,732 [INFO] ✅ Success : 17
+2026-03-10 19:40:10,732 [INFO] ❌ Failed  : 3
+2026-03-10 19:40:10,733 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 19:40:10,733 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 19:53:04,249 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-10 19:53:04,250 [INFO] ⏩ Resume: đã có 17 sản phẩm, skip qua
+2026-03-10 19:53:04,250 [INFO] 📋 Còn lại cần crawl: 3
+2026-03-10 19:53:04,251 [INFO] [1/3] product_id=110570
+2026-03-10 19:53:04,251 [INFO]   🔗 Crawling: https://www.glamira.dk/glamira-ring-breanne.html?alloy=white-585&diamond=sapphire&stone2=diamond-Brillant
+2026-03-10 19:53:05,737 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:53:10,608 [INFO] [2/3] product_id=108568
+2026-03-10 19:53:10,609 [INFO]   🔗 Crawling: https://www.glamira.com.tr/glamira-pendant-asmaa.html?alloy=white_yellow-585&diamond=rose-quartz-cabochon&stone2=diamond-Swarovsky&stone3=diamond-Swarovsky&fbclid=IwAR1Zf9WJwoGcMD7uu8uMcS1dE0RM8zeaoiFol2ZVjyijOvePNXcZpP4WzMo
+2026-03-10 19:53:13,306 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:53:17,125 [INFO] [3/3] product_id=105524
+2026-03-10 19:53:17,126 [INFO]   🔗 Crawling: https://www.glamira.com.co/anillo-de-mujer-serenity-chance-8-mm.html?alloy=white_red-platin_585
+2026-03-10 19:53:18,541 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 19:53:21,930 [INFO] 
+==================================================
+2026-03-10 19:53:21,930 [INFO] ✅ Success : 0
+2026-03-10 19:53:21,930 [INFO] ❌ Failed  : 3
+2026-03-10 19:53:21,931 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 19:53:21,931 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 19:55:35,887 [INFO] 🧪 TEST MODE: chỉ crawl 5 sản phẩm
+2026-03-10 19:55:35,888 [INFO] ⏩ Resume: đã có 17 sản phẩm, skip qua
+2026-03-10 19:55:35,889 [INFO] 📋 Còn lại cần crawl: 0
+2026-03-10 19:55:35,889 [INFO] ✅ Tất cả đã crawl xong!
+2026-03-10 20:05:07,638 [INFO] 🧪 TEST MODE: chỉ crawl 20 sản phẩm
+2026-03-10 20:05:07,640 [INFO] ⏩ Resume: đã có 17 sản phẩm, skip qua
+2026-03-10 20:05:07,640 [INFO] 🧪 TEST MODE: crawl tiếp 3 sản phẩm
+2026-03-10 20:05:07,640 [INFO] 📋 Còn lại cần crawl: 3
+2026-03-10 20:05:07,641 [INFO] [1/3] product_id=110570
+2026-03-10 20:05:07,641 [INFO]   🔗 Crawling: https://www.glamira.dk/glamira-ring-breanne.html?alloy=white-585&diamond=sapphire&stone2=diamond-Brillant
+2026-03-10 20:05:08,834 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 20:05:12,504 [INFO] [2/3] product_id=108568
+2026-03-10 20:05:12,505 [INFO]   🔗 Crawling: https://www.glamira.com.tr/glamira-pendant-asmaa.html?alloy=white_yellow-585&diamond=rose-quartz-cabochon&stone2=diamond-Swarovsky&stone3=diamond-Swarovsky&fbclid=IwAR1Zf9WJwoGcMD7uu8uMcS1dE0RM8zeaoiFol2ZVjyijOvePNXcZpP4WzMo
+2026-03-10 20:05:16,721 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 20:05:21,522 [INFO] [3/3] product_id=105524
+2026-03-10 20:05:21,523 [INFO]   🔗 Crawling: https://www.glamira.com.co/anillo-de-mujer-serenity-chance-8-mm.html?alloy=white_red-platin_585
+2026-03-10 20:05:22,652 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 20:05:25,688 [INFO] 
+==================================================
+2026-03-10 20:05:25,689 [INFO] ✅ Success : 0
+2026-03-10 20:05:25,689 [INFO] ❌ Failed  : 3
+2026-03-10 20:05:25,689 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 20:05:25,690 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 20:07:04,346 [INFO] 🧪 TEST MODE: chỉ crawl 5 sản phẩm
+2026-03-10 20:07:04,348 [INFO] ⏩ Resume: đã có 17 sản phẩm, skip qua
+2026-03-10 20:07:04,348 [INFO] 🧪 TEST MODE: crawl tiếp 0 sản phẩm
+2026-03-10 20:07:04,348 [INFO] 📋 Còn lại cần crawl: 0
+2026-03-10 20:07:04,348 [INFO] ✅ Tất cả đã crawl xong!
+2026-03-10 20:21:25,020 [INFO] ⏩ Resume: đã có 17 sản phẩm, skip qua
+2026-03-10 20:21:25,025 [INFO] 🧪 TEST MODE: crawl tiếp 20 sản phẩm
+2026-03-10 20:21:25,025 [INFO] 📋 Còn lại cần crawl: 20
+2026-03-10 20:21:25,026 [INFO] [1/20] product_id=110570
+2026-03-10 20:21:25,026 [INFO]   🔗 Crawling: https://www.glamira.dk/glamira-ring-breanne.html?alloy=white-585&diamond=sapphire&stone2=diamond-Brillant
+2026-03-10 20:21:26,818 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 20:21:30,282 [INFO] [2/20] product_id=108568
+2026-03-10 20:21:30,283 [INFO]   🔗 Crawling: https://www.glamira.com.tr/glamira-pendant-asmaa.html?alloy=white_yellow-585&diamond=rose-quartz-cabochon&stone2=diamond-Swarovsky&stone3=diamond-Swarovsky&fbclid=IwAR1Zf9WJwoGcMD7uu8uMcS1dE0RM8zeaoiFol2ZVjyijOvePNXcZpP4WzMo
+2026-03-10 20:21:32,546 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 20:21:36,041 [INFO] [3/20] product_id=105524
+2026-03-10 20:21:36,042 [INFO]   🔗 Crawling: https://www.glamira.com.co/anillo-de-mujer-serenity-chance-8-mm.html?alloy=white_red-platin_585
+2026-03-10 20:21:37,158 [WARNING]   ❌ FAILED: url_error_404
+2026-03-10 20:21:42,337 [INFO] [4/20] product_id=96841
+2026-03-10 20:21:42,338 [INFO]   🔗 Crawling: https://www.glamira.pt/anel-masculinos-brilliant-impulse-2mm.html?fbclid=IwAR1y4Pf6ewGf-3NIY2ZBUtHxLM686GBCrhWE7xZpt2EN90GWOfr67aVg1h8&alloy=white-375
+2026-03-10 20:21:44,344 [INFO]   ✅ Anel Masculinos Brilliant Impulse 2mm | 395.1 EUR
+2026-03-10 20:21:49,454 [INFO] [5/20] product_id=94774
+2026-03-10 20:21:49,455 [INFO]   🔗 Crawling: https://www.glamira.be/herenring-alluring-hope.html?stone=diamond-Brillant&fbclid=IwAR1DS7M0I0KrhYxyqFbxcxJ94bDDxOw4cP-3725sGQ8HPF4syC_OAH8N14U&alloy=white-585
+2026-03-10 20:21:51,500 [INFO]   ✅ Heren Trouwring Alluring Hope | 1163.7 EUR
+2026-03-10 20:21:56,628 [INFO] [6/20] product_id=107663
+2026-03-10 20:21:56,628 [INFO]   🔗 Crawling: https://www.glamira.at/alluring-emotion-6-mm.html?alloy=white-585&stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting
+2026-03-10 20:21:59,285 [INFO]   ✅ Ehering Alluring Emotion 6 mm | 2550.6 EUR
+2026-03-10 20:22:03,595 [INFO] [7/20] product_id=105690
+2026-03-10 20:22:03,596 [INFO]   🔗 Crawling: https://www.glamira.ca/fr/splendid-spring-4-mm.html?stone=diamond-Zirconia&alloy=yellow-585
+2026-03-10 20:22:05,870 [INFO]   ✅ Bague de Mariage Splendid Spring 4 mm | 2932.20 CAD
+2026-03-10 20:22:10,142 [INFO] [8/20] product_id=104775
+2026-03-10 20:22:10,143 [INFO]   🔗 Crawling: https://www.glamira.co.uk/sense-beauty-6-mm.html?stone=browndiamond&fbclid=IwAR0U_CoQmHnJcZZRGSr4RXT_CxCLe_Ij7zEcWVjmU99PSHeJyX7cskuXSb0&alloy=red-585
+2026-03-10 20:22:12,300 [INFO]   ✅ Wedding Ring Sense Beauty 6 mm | 2171.7 GBP
+2026-03-10 20:22:16,233 [INFO] [9/20] product_id=96643
+2026-03-10 20:22:16,234 [INFO]   🔗 Crawling: https://www.glamira.ro/glamira-ring-elugelap.html?alloy=white-silber&diamond=blackdiamond&stone2=diamond-Brillant
+2026-03-10 20:22:19,339 [INFO]   ✅ GLAMIRA Inel Elugelap | 2740.5 RON
+2026-03-10 20:22:23,357 [INFO] [10/20] product_id=96685
+2026-03-10 20:22:23,357 [INFO]   🔗 Crawling: https://www.glamira.com.au/glamira-ring-begalinis.html?fbclid=IwAR0b6hWtslwfsp0cgdnPUb8DUxENtTMaHTzdRMu8KX4WF6LuX38Gr-9EUdA
+2026-03-10 20:22:28,337 [INFO]   ✅ GLAMIRA Ring Begalinis | 1995.3 AUD
+2026-03-10 20:22:31,878 [INFO] [11/20] product_id=106511
+2026-03-10 20:22:31,878 [INFO]   🔗 Crawling: https://www.glamira.dk/ringe-til-maend-charming-harmony-10-mm.html?alloy=white-375
+2026-03-10 20:22:33,692 [INFO]   ✅ Ringe til mænd Charming Harmony 10 mm | 9979.2 DKK
+2026-03-10 20:22:37,920 [INFO] [12/20] product_id=106449
+2026-03-10 20:22:37,921 [INFO]   🔗 Crawling: https://www.glamira.at/attractive-theme-6-mm.html?fbclid=IwAR0ivFhw1vG8z2R9xdLtjhY7IC9rEVzQP87eBEvwzx5KvZM5U99Qu_BD5sw&alloy=red-585
+2026-03-10 20:22:39,951 [INFO]   ✅ Ehering Attractive Theme 6 mm | 2546.1 EUR
+2026-03-10 20:22:45,738 [INFO] [13/20] product_id=110245
+2026-03-10 20:22:45,739 [INFO]   🔗 Crawling: https://www.glamira.nl/glamira-bracelet-bess.html?alloy=white-585&diamond=diamond-Swarovsky&gclid=CjwKCAjwt-L2BRA_EiwAacX32f3ty7FnUl4kqRymLr0-x0vvJuA5u0c9sfMglNpgsoivPC6fZP292RoCr6QQAvD_BwE
+2026-03-10 20:22:48,118 [INFO]   ✅ Dames Armband Bess | 1686.6 EUR
+2026-03-10 20:22:52,204 [INFO] [14/20] product_id=107830
+2026-03-10 20:22:52,205 [INFO]   🔗 Crawling: https://www.glamira.hr/charming-life-10-mm.html?stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting&fbclid=IwAR3lVgWONeTaM80ufBhK2QY34c7AtN_s4B5mCTKFdALOUcIPbzQbGrLNne8&alloy=white-585
+2026-03-10 20:22:54,772 [INFO]   ✅ Charming Life 10 mm | 4052 EUR
+2026-03-10 20:22:58,724 [INFO] [15/20] product_id=91693
+2026-03-10 20:22:58,725 [INFO]   🔗 Crawling: https://www.ring-paare.de/attractive-force.html?alloy=white-platin&stone=diamond-Zirconia&itm_source=recommendation&itm_medium=sorting
+2026-03-10 20:23:01,283 [WARNING]   ❌ no_product_name
+2026-03-10 20:23:05,251 [INFO] [16/20] product_id=91157
+2026-03-10 20:23:05,252 [INFO]   🔗 Crawling: https://www.glamira.ca/glamira-cross-pendant-zita.html?fbclid=IwAR1LEWy5LpbKPD14AhMd9t1ZZ4v5A089YeXVPkZKXf6prQA2rM-_Qw9Ucpk
+2026-03-10 20:23:08,836 [INFO]   ✅ Women's Pendant Zita | 1903.50 CAD
+2026-03-10 20:23:13,726 [INFO] [17/20] product_id=96244
+2026-03-10 20:23:13,727 [INFO]   🔗 Crawling: https://www.glamira.de/precious-heart-6-mm.html?fbclid=IwAR2kaowDU3m543uTlo5kQzgN4ehZtC0ShnAFZVFqcjYqTWgJ4UA6e3UeaIo&alloy=white_yellow-375
+2026-03-10 20:23:15,511 [INFO]   ✅ Trauring Precious Heart 6 mm | 1937.7 EUR
+2026-03-10 20:23:19,490 [INFO] [18/20] product_id=107791
+2026-03-10 20:23:19,491 [INFO]   🔗 Crawling: https://www.glamira.co.uk/men-s-ring-alluring-fancy-6-mm.html?fbclid=IwAR2batlKZh3x22u4OitBJbditeZl82DRMw21djMZDNidLgQbxPpCpX9h1-8&alloy=white-585
+2026-03-10 20:23:22,434 [INFO]   ✅ Men's Wedding Ring Alluring Fancy 6 mm | 1172.7 GBP
+2026-03-10 20:23:27,123 [INFO] [19/20] product_id=97395
+2026-03-10 20:23:27,123 [INFO]   🔗 Crawling: https://www.glamira.at/glamira-pendant-mahalsia.html?fbclid=IwAR0Bj0r9DczNNjyNyA10AyIy9MeklQeWXRqTO1PuhCfRQQb_qSw6IoK5Y9k
+2026-03-10 20:23:29,835 [INFO]   ✅ Damen anhänger Mahalsia | 1271.7 EUR
+2026-03-10 20:23:34,595 [INFO] [20/20] product_id=96637
+2026-03-10 20:23:34,596 [INFO]   🔗 Crawling: https://www.glamira.cz/glamira-ring-furaha.html?alloy=white-585&diamond=diamond-Brillant
+2026-03-10 20:23:37,318 [INFO]   ✅ GLAMIRA Prsten Furaha | 17649 CZK
+2026-03-10 20:23:41,747 [INFO] 
+==================================================
+2026-03-10 20:23:41,747 [INFO] ✅ Success : 16
+2026-03-10 20:23:41,748 [INFO] ❌ Failed  : 4
+2026-03-10 20:23:41,748 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 20:23:41,749 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 20:28:35,520 [INFO] ⏩ Resume: đã xử lý 37 sản phẩm, skip qua
+2026-03-10 20:28:35,525 [INFO] 🧪 TEST MODE: crawl tiếp 3 sản phẩm
+2026-03-10 20:28:35,525 [INFO] 📋 Còn lại cần crawl: 3
+2026-03-10 20:28:35,526 [INFO] [1/3] product_id=92321
+2026-03-10 20:28:35,526 [INFO]   🔗 Crawling: https://www.glamira.co.uk/glamira-ring-jeffrey-0.8-crt.html?alloy=white-585&diamond=kunzite
+2026-03-10 20:28:37,382 [INFO]   ✅ Engagement Ring Jeffrey 0.8 crt | 1208.7 GBP
+2026-03-10 20:28:42,554 [INFO] [2/3] product_id=94849
+2026-03-10 20:28:42,555 [INFO]   🔗 Crawling: https://www.glamira.cl/anillo-de-mujer-bright-lightning.html?alloy=white_red-585&gclid=CjwKCAjwztL2BRATEiwAvnALckkmVQWDTxZDdgfAKTeMmkp5Q6ZQ1FPs3V60I6EKlfuqZphund4NdBoCezgQAvD_BwE&stone=diamond-Brillant
+2026-03-10 20:28:46,152 [INFO]   ✅ Anillo Boda Mujer Bright Lightning | 1224540.9 CLP
+2026-03-10 20:28:51,196 [INFO] [3/3] product_id=101858
+2026-03-10 20:28:51,197 [INFO]   🔗 Crawling: https://www.glamira.de/glamira-ring-jarlenis.html?alloy=white_red-585&utm_source=criteo&utm_medium=retargeting&utm_campaign=webconversion
+2026-03-10 20:28:52,821 [INFO]   ✅ GLAMIRA Ring Jarlenis | 739.8 EUR
+2026-03-10 20:28:56,606 [INFO] 
+==================================================
+2026-03-10 20:28:56,606 [INFO] ✅ Success : 3
+2026-03-10 20:28:56,607 [INFO] ❌ Failed  : 0
+2026-03-10 20:28:56,607 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 20:28:56,607 [INFO] 📁 Failed  : data/product_data_failed.csv
+2026-03-10 23:25:12,948 [INFO] ⏩ Resume: đã xử lý 40 sản phẩm, skip qua
+2026-03-10 23:25:12,957 [INFO] 🧪 TEST MODE: crawl tiếp 3 sản phẩm
+2026-03-10 23:25:12,959 [INFO] 📋 Còn lại cần crawl: 3
+2026-03-10 23:25:12,961 [INFO] [1/3] product_id=107652
+2026-03-10 23:25:12,962 [INFO]   🔗 Crawling: https://www.glamira.co.uk/men-s-ring-romantic-road-8-mm.html?fbclid=IwAR3Nz0mDwZ1M4NtFpdOC76WboAznb1TEr1aGXZpzwy_x-E49J5Ncet0aSTY&alloy=white-585
+2026-03-10 23:25:19,045 [INFO]   ✅ Men's Ring Romantic Road 8 mm | 1554.3 GBP
+2026-03-10 23:25:24,018 [INFO] [2/3] product_id=89501
+2026-03-10 23:25:24,019 [INFO]   🔗 Crawling: https://www.glamira.hu/glamira-mandzsettagombok-contemporary-tale.html?fbclid=IwAR1v96hAti6CrSvl3_Bxn3Q0AES-ugPhOnPQTVXfns0FBy1tFLfHWufwf8E
+2026-03-10 23:25:28,189 [INFO]   ✅ Mandzsettagomb Contemporary Tale | 477535 HUF
+2026-03-10 23:25:34,100 [INFO] [3/3] product_id=102146
+2026-03-10 23:25:34,101 [INFO]   🔗 Crawling: https://www.glamira.co.uk/womens-ring-magnetic-love.html?fbclid=IwAR3c6CqM-bE6K4rlcTACgDuORfdu-Y6QFPZ7r8Vrph_h_hP6qtQN8u7PQYQ
+2026-03-10 23:25:37,345 [INFO]   ✅ Women's ring Magnetic Love | 54.9 GBP
+2026-03-10 23:25:42,378 [INFO] 
+==================================================
+2026-03-10 23:25:42,379 [INFO] ✅ Success : 3
+2026-03-10 23:25:42,380 [INFO] ❌ Failed  : 0
+2026-03-10 23:25:42,382 [INFO] 📁 Output  : data/product_data.csv
+2026-03-10 23:25:42,383 [INFO] 📁 Failed  : data/product_data_failed.csv

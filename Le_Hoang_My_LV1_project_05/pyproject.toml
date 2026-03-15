@@ -1,0 +1,29 @@
+[project]
+name = "le-hoang-my-lv1-project-05"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "LeHoangMy",email = "lhmy11297@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pymongo (>=4.16.0,<5.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "beautifulsoup4 (>=4.14.3,<5.0.0)",
+    "ip2location (>=8.11.0,<9.0.0)",
+    "cloudscraper (>=1.2.71,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "le_hoang_my_lv1_project_05"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
