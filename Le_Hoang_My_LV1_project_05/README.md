@@ -1,242 +1,281 @@
-# Project 05 — Glamira Web Crawling & Data Collection
+# Glamira Data Engineering Project
 
-> Crawl product data from [glamira.com](https://www.glamira.com), store in MongoDB, and export to CSV for downstream pipeline.
+End-to-end data engineering pipeline built on GCP, covering web crawling, data pipeline, dimensional modeling, and business intelligence dashboards.
 
 ---
 
-## 📁 Project Structure
+## Project Overview
+
+| Folder | Topic | Stack |
+|--------|-------|-------|
+| `crawling/` | Web Crawling | Python, MongoDB, GCP VM, Webshare Proxy |
+| `gcs_storage/` | Data Pipeline & Storage | GCS, BigQuery, Cloud Functions, Python |
+| `transformation/` | Data Transformation & Visualization | dbt, BigQuery, Looker Studio |
+
+---
+
+## Architecture
 
 ```
-LE_HOANG_MY_LV1_PROJECT_05/
-├── data/                          # Local data files (gitignored)
-│   ├── product_urls.csv           # All product URLs collected
-│   ├── product_data.csv           # Crawled product data (merged)
-│   ├── product_data_final.csv     # Final deduplicated success (18,007 records)
-│   └── product_data_failed_final.csv  # Final deduplicated failed (1,410 records)
-├── docs/
-│   └── data_dictionary.md         # Schema & field descriptions
-├── le_hoang_my_lv1_project_05/
-│   ├── ip_processing/
-│   │   ├── ip_processor.py        # IP geolocation processing (local)
-│   │   └── ip_processor_vm.py     # IP geolocation processing (VM)
-│   ├── product_crawling/
-│   │   ├── collect_urls.py        # Step 5: Collect product URLs from sitemap/category
-│   │   ├── crawl_products.py      # Step 6 v1: Crawl product details (simple requests)
-│   │   ├── crawl_worker_vm.py     # Step 6 v2: Crawl with rotating proxy, 5 workers
-│   │   ├── crawl_retry_v2_3threads.py  # Step 6 v3: Retry failed IDs, 3 threads
-│   │   └── crawl_retry_v2_singlethread.py  # Step 6 v3 alt: Single thread version
-│   └── utils/
-│       └── db.py                  # MongoDB connection helper
-├── notebooks/                     # EDA & exploration notebooks
-├── .env.example                   # Environment variables template
+Glamira Website
+      ↓ (crawl)
+  MongoDB (VM)
+      ↓ (export)
+  GCS Bucket: raw-glamira-data-mie/
+      ↓ (Cloud Function trigger)
+  BigQuery: glamira_raw (raw layer)
+      ↓ (dbt transform)
+  BigQuery: glamira_dev (mart layer)
+      ↓ (visualize)
+  Looker Studio Dashboard
+```
+
+---
+
+## Folder Structure
+
+```
+LE_HOANG_MY_LV1_PROJECT/
+├── README.md
 ├── .gitignore
-├── pyproject.toml
-├── poetry.lock
-└── README.md
+├── .env.example
+├── crawling/
+│   ├── crawl_worker.py
+│   ├── crawl_retry_v2.py
+│   └── requirements.txt
+├── gcs_storage/
+│   ├── export_to_gcs.py
+│   ├── export_summary_v2.py
+│   ├── cloud_function/
+│   │   └── main.py
+│   └── schemas/
+│       ├── product_schema.json
+│       ├── ip_locations_schema.json
+│       └── summary_schema_v2.json
+└── transformation/
+    └── glamira_dbt/
+        ├── dbt_project.yml
+        ├── packages.yml
+        └── models/
+            ├── staging/
+            │   ├── sources.yml
+            │   ├── schema.yml
+            │   ├── stg_summary.sql
+            │   ├── stg_product.sql
+            │   └── stg_ip_locations.sql
+            ├── intermediate/
+            │   └── int_summary_enriched.sql
+            ├── core/
+            │   ├── schema.yml
+            │   ├── dim_customer.sql
+            │   ├── dim_device.sql
+            │   ├── dim_date.sql
+            │   ├── dim_location.sql
+            │   ├── dim_product.sql
+            │   └── dim_option.sql
+            └── mart/
+                ├── schema.yml
+                └── fact_sales_order.sql
 ```
 
 ---
 
-## 🔧 Environment Setup
+## Crawling
 
-### Prerequisites
-- Python 3.10+
-- [Poetry](https://python-poetry.org/)
-- GCP account with a running VM (e2-medium recommended)
-- MongoDB 6.x on VM
+### Objective
+Crawl ~19,417 product URLs from Glamira website to collect product data (name, price, material, stone, diamond).
 
-### 1. Clone & Install Dependencies
+### Approach
+- **v1** (`crawl_worker.py`): Parse HTML tags. 5 parallel workers with Webshare rotating proxy.
+- **v2** (`crawl_retry_v2.py`): Discovered `var react_data` JSON embedded in HTML. Fallback chain: `.com` → `.co.uk` → `.com.au`
 
+### Results
+- Success: 13,322 products
+- Failed: 6,095 (mostly 404)
+- Total: 19,417 URLs
+
+### Setup
 ```bash
-git clone <repo-url>
-cd LE_HOANG_MY_LV1_PROJECT_05
-
-# Install dependencies
-poetry install
-
-# Activate virtual environment
-poetry shell
-```
-
-### 2. Configure Environment Variables
-
-```bash
+pip install -r crawling/requirements.txt
 cp .env.example .env
-# Edit .env with your values
+python crawling/crawl_retry_v2.py
 ```
 
-`.env.example`:
-```env
+---
+
+## GCS Storage
+
+### Objective
+Build automated ETL pipeline: MongoDB → GCS → BigQuery with Cloud Function trigger.
+
+### Pipeline Flow
+```
+MongoDB
+  ↓ export_to_gcs.py / export_summary_v2.py
+  ↓ [2 parallel workers, batch 200k rows]
+GCS: raw-glamira-data-mie/
+  ├── product_data/    (18,007 rows)
+  ├── ip_locations/    (3.2M rows)
+  └── summary_v2/      (42M rows, 205 files)
+       ↓ Cloud Function trigger_bigquery_load
+BigQuery: glamira-analytics.glamira_raw
+  ├── product_data
+  ├── ip_locations
+  └── summary_v2
+```
+
+### Key Decisions
+- **JSONL** over CSV/PARQUET: handles nested arrays
+- **Batch size 200k**: balances RAM on 4GB VM
+- **Dedup in dbt**: raw layer stores as-is
+- **Cloud Function**: event-driven auto-load on GCS upload
+
+### Setup
+```bash
+pip install pymongo google-cloud-storage
+
+# Export product_data and ip_locations
+python gcs_storage/export_to_gcs.py
+
+# Export summary (42M rows) - run overnight
+nohup python gcs_storage/export_summary_v2.py > ~/data/export_v2_nohup.log 2>&1 &
+
+# Deploy Cloud Function
+gcloud functions deploy trigger_bigquery_load \
+  --runtime python311 \
+  --trigger-resource raw-glamira-data-mie \
+  --trigger-event google.storage.object.finalize \
+  --source gcs_storage/cloud_function/ \
+  --entry-point trigger_bigquery_load \
+  --region asia-southeast1 \
+  --project glamira-analytics
+```
+
+---
+
+## Transformation
+
+### Objective
+Build dimensional model with dbt and create BI dashboards in Looker Studio.
+
+### Data Model (Star Schema)
+
+```
+glamira_raw.summary_v2   ──► stg_summary ──►
+                                              int_summary_enriched ──► dim_customer
+glamira_raw.ip_locations ──► stg_ip_locations ──► dim_location    ──► dim_device
+                                                                   ──► dim_date     ──► fact_sales_order
+glamira_raw.product_data ──► stg_product ──► dim_product          ──► dim_option
+```
+
+### Tables
+
+| Table | Grain | Rows (approx) |
+|-------|-------|---------------|
+| `fact_sales_order` | 1 product line item per order | ~27K |
+| `dim_customer` | 1 logged-in user | ~17K |
+| `dim_device` | 1 device_id | ~7.9M |
+| `dim_date` | 1 date | ~1K |
+| `dim_location` | 1 (country, city, region) combo | ~10K |
+| `dim_product` | 1 product | ~18K |
+| `dim_option` | 1 (option_id, value_id) combo | ~8.5K |
+
+### Key Design Decisions
+- **Surrogate keys**: `MOD(ABS(FARM_FINGERPRINT(...)), 10000000000)`
+- **Guest checkout**: `customer_key = -1`
+- **Price**: converted to USD using static exchange rates
+- **Dedup**: `ROW_NUMBER() OVER (PARTITION BY ...)` in staging/core
+- **int_summary_enriched**: joins IP → location_key before dims/fact
+
+### Setup
+```bash
+pip install dbt-bigquery
+cd transformation/glamira_dbt
+
+# Configure BigQuery connection
+mkdir -p ~/.dbt
+nano ~/.dbt/profiles.yml
+
+# Run models
+dbt run
+dbt test
+
+# View docs
+dbt docs generate
+dbt docs serve --port 8090
+```
+
+### Dashboard (Looker Studio)
+
+**Revenue Analysis:**
+- Total Revenue YTD (card)
+- Average Order Value — AOV (card)
+- Total Orders YTD (card)
+- Total Quantity YTD (card)
+
+**Geographic Distribution:**
+- Revenue by Country (geo map)
+- Top 10 Countries by Revenue + Order Count (bar)
+- Top 10 Cities by Revenue + Order Count (filter by country)
+
+**Time-based Trends:**
+- Revenue by Month with Year (bar)
+- Orders by Day of Week (heatmap)
+- YoY/MoM Growth — Revenue + Orders
+
+**Product Performance:**
+- Top 10 Products by Revenue
+- Top 10 Products by Quantity
+- Revenue by Gender (Men/Women/Unisex)
+- Top Products by Utilization Rate (price / price_max)
+
+---
+
+## GCP Infrastructure
+
+| Resource | Value |
+|----------|-------|
+| VM | `glamira-vm`, `asia-southeast1-b`, e2-medium |
+| GCS Bucket | `raw-glamira-data-mie` |
+| BigQuery Project | `glamira-analytics` |
+| BigQuery Dataset (raw) | `glamira_raw` |
+| BigQuery Dataset (mart) | `glamira_dev` |
+| Cloud Function | `trigger_bigquery_load`, `asia-southeast1` |
+
+---
+
+## Environment Variables
+
+```bash
+# MongoDB
 MONGO_URI=mongodb://localhost:27017
 MONGO_DB=glamira
-WEBSHARE_USER=your_proxy_user
-WEBSHARE_PASS=your_proxy_pass
+
+# Webshare Proxy
+WEBSHARE_USER=your_proxy_username
+WEBSHARE_PASS=your_proxy_password
+
+# GCP
+GCP_PROJECT_ID=glamira-analytics
+GCS_BUCKET_NAME=raw-glamira-data-mie
+GCP_ZONE=asia-southeast1-b
+VM_NAME=glamira-vm
 ```
 
 ---
 
-## ☁️ GCP Setup (Step 1–3)
+## .gitignore
 
-### Step 1 — Create GCP Project
-
-```bash
-# Install Google Cloud SDK: https://cloud.google.com/sdk/docs/install
-
-# Login
-gcloud auth login
-
-# Create project
-gcloud projects create glamira-project-05 --name="Glamira Project 05"
-
-# Set active project
-gcloud config set project glamira-project-05
-
-# Enable billing (required for VM & GCS)
-# → Go to: https://console.cloud.google.com/billing
 ```
-
-### Step 2 — Create GCS Bucket
-
-```bash
-# Create bucket (raw layer)
-gcloud storage buckets create gs://glamira-raw-data \
-    --location=asia-southeast1 \
-    --storage-class=STANDARD
-
-# Verify bucket created
-gcloud storage buckets list
-
-# Test upload
-gcloud storage cp data/product_urls.csv gs://glamira-raw-data/raw/
+.env
+data/
+*.csv
+*.jsonl
+*.parquet
+*.log
+__pycache__/
+*.pyc
+target/
+dbt_packages/
+profiles.yml
 ```
-
-### Step 3 — Create & Configure VM
-
-```bash
-# Create VM instance
-gcloud compute instances create glamira-vm \
-    --zone=asia-southeast1-b \
-    --machine-type=e2-medium \
-    --image-family=ubuntu-2204-lts \
-    --image-project=ubuntu-os-cloud \
-    --boot-disk-size=50GB
-
-# SSH into VM
-gcloud compute ssh glamira-vm --zone=asia-southeast1-b
-
-# --- Inside VM ---
-
-# Update packages
-sudo apt update && sudo apt upgrade -y
-
-# Install Python
-sudo apt install python3 python3-pip python3-venv -y
-
-# Install MongoDB
-curl -fsSL https://www.mongodb.org/static/pgp/server-6.0.asc | \
-    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg --dearmor
-
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] \
-    https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | \
-    sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
-
-sudo apt update
-sudo apt install -y mongodb-org
-
-# Start MongoDB
-sudo systemctl start mongod
-sudo systemctl enable mongod
-
-# Verify MongoDB running
-sudo systemctl status mongod
-mongosh --eval "db.runCommand({ connectionStatus: 1 })"
-```
-
----
-
-## 🕷️ Crawling Pipeline (Step 4–6)
-
-### Step 4–5 — Collect Product URLs
-
-```bash
-# Run URL collection (scrapes sitemap + category pages)
-python le_hoang_my_lv1_project_05/product_crawling/collect_urls.py
-# Output: data/product_urls.csv (~19,417 product IDs)
-```
-
-### Step 6 — Crawl Product Data
-
-**Method 1 — Simple requests (local, no proxy):**
-```bash
-python le_hoang_my_lv1_project_05/product_crawling/crawl_products.py
-```
-
-**Method 2 — Retry failed IDs, 3 threads (on VM):**
-```bash
-# Upload script to VM
-gcloud compute scp le_hoang_my_lv1_project_05/product_crawling/crawl_retry_v2_3threads.py \
-    glamira-vm:~/crawl_retry_v2.py --zone=asia-southeast1-b
-
-# Run with nohup
-nohup python3 crawl_retry_v2.py > ~/data/crawl_v2_nohup.log 2>&1 &
-tail -f ~/data/crawl_v2.log
-```
-
-### Download Results from VM
-
-```bash
-# Download final files to local
-gcloud compute scp glamira-vm:/home/lhmy11297/data/product_data_final.csv \
-    "data/product_data_final.csv" --zone=asia-southeast1-b
-
-gcloud compute scp glamira-vm:/home/lhmy11297/data/product_data_failed_final.csv \
-    "data/product_data_failed_final.csv" --zone=asia-southeast1-b
-```
-
----
-
-## 📊 Final Results
-
-| Metric | Value |
-|---|---|
-| Total product IDs | 19,417 |
-| ✅ Success (distinct) | 18,007 |
-| ❌ Failed (distinct) | 1,410 |
-| Failed reason | Mostly true 404 (product removed) |
-
----
-
-## 🗂️ Data Schema
-
-See [`docs/data_dictionary.md`](docs/data_dictionary.md) for full schema.
-
-Key fields in `product_data_final.csv`:
-
-| Field | Type | Description |
-|---|---|---|
-| product_id | string | Unique product identifier |
-| product_name | string | Product name (original language) |
-| product_name_en | string | Product name (English) |
-| price_current | float | Current price |
-| price_original | float | Original price (if on sale) |
-| price_min | float | Minimum configurable price |
-| price_max | float | Maximum configurable price |
-| currency | string | Currency code (USD, GBP, AUD) |
-| gender | string | Target gender |
-| alloy | string | Metal alloy SKU |
-| stone | string | Primary stone SKU |
-| diamond | string | Diamond SKU |
-| source_url | string | Original URL |
-| crawled_url | string | Actual URL crawled (after fallback) |
-| is_english | bool | Whether product name is in English |
-
----
-
-## ⚠️ Anti-bot Notes
-
-Glamira uses session-based bot detection:
-- ✅ Plain `requests.get()` → 200 OK
-- ❌ `requests.Session()` → 403 Forbidden
-- ❌ Too many rapid requests → IP rate limit
-
-**Solution:** Use rotating proxies (Webshare) + random delay 3–6s per request.

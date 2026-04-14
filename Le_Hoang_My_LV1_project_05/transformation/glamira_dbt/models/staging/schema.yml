@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_summary
+    description: "Cleaned and deduplicated summary_v2. Grain: 1 row = 1 event"
+    columns:
+      - name: order_id
+        description: "Order ID, only populated for collection=checkout_success"
+      - name: collection
+        description: "Event type: checkout_success, view_detail, add_to_cart, etc."
+
+  - name: stg_product
+    description: "Cleaned product data from glamira_raw.product_data"
+    columns:
+      - name: product_id
+        description: "Product ID, unique"
+
+  - name: stg_ip_locations
+    description: "Cleaned IP to location mapping"
+    columns:
+      - name: ip
+        description: "IP address, unique"

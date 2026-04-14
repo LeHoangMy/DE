@@ -1,0 +1,62 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: "Logged-in customers only. Guest checkouts use customer_key=-1 in fact table"
+    columns:
+      - name: customer_key
+        description: "Surrogate key, ABS(FARM_FINGERPRINT(user_id_db))"
+      - name: user_id_db
+        description: "Natural key from MongoDB"
+      - name: email_address
+        description: "Most recent email, prioritizing non-null values"
+
+  - name: dim_device
+    description: "User devices, parsed from user_agent string"
+    columns:
+      - name: device_key
+        description: "Surrogate key, ABS(FARM_FINGERPRINT(device_id))"
+      - name: device_type
+        description: "Mobile / Desktop / Tablet / Bot"
+      - name: os
+        description: "Android / iOS / Windows / Mac / ChromeOS / Linux / Other"
+      - name: browser
+        description: "Chrome / Safari / Firefox / Edge / IE / Other"
+      - name: user_agent
+        description: "Raw user agent string, kept for debugging unclassified cases"
+
+  - name: dim_product
+    description: "Glamira products crawled from website"
+    columns:
+      - name: product_key
+        description: "Surrogate key, ABS(FARM_FINGERPRINT(product_id))"
+      - name: gender
+        description: "Normalized gender: Men / Women / Unisex"
+
+  - name: dim_date
+    description: "Date dimension, generated from event_date in stg_summary"
+    columns:
+      - name: date_key
+        description: "Integer in YYYYMMDD format, used as FK in fact table"
+      - name: year_quarter
+        description: "Format: 2020-Q2"
+      - name: first_day_of_month
+        description: "First day of the month, useful for monthly aggregations"
+
+  - name: dim_location
+    description: "Geographic dimension. Grain: unique combination of country_code + city + region"
+    columns:
+      - name: location_key
+        description: "Surrogate key, ABS(FARM_FINGERPRINT(country|city|region))"
+      - name: country_code
+        description: "ISO 2-letter country code, e.g. VN, AE, DE"
+
+  - name: dim_option
+    description: "Product options such as alloy, diamond, stone. Sourced from cart_products.option array"
+    columns:
+      - name: option_key
+        description: "Surrogate key, ABS(FARM_FINGERPRINT(option_id|value_id))"
+      - name: option_label
+        description: "Option type: alloy, diamond, stone, etc."
+      - name: value_label
+        description: "Option value: Gelbgold 585, White Sapphire, etc."

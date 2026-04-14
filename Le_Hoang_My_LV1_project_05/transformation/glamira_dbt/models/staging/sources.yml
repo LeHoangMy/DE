@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: glamira_raw
+    database: glamira-analytics
+    schema: glamira_raw
+    tables:
+      - name: summary_v2
+      - name: product_data
+      - name: ip_locations
